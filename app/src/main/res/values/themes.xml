@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <style name="Theme.PlayGames" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Colores del tema1 -->
+
+        <item name="colorPrimary">@color/aquamarina</item>
+        <item name="colorPrimaryVariant">@color/azulOscuro</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Colores del tema2 -->
+        <item name="colorSecondary">@color/rojo</item>
+        <item name="colorSecondaryVariant">@color/rojoOscuro</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/rojoOscuro</item>
+    </style>
+
+    <style name="TituloPlayGames">
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/courgette_regular</item>>
+        <item name="android:textColor">@color/grisClaro</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BotonPrincipal">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/aquamarina</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToolBar">
+        <item name="android:backgroundTint">@color/rojo</item>
+    </style>
+
+    <style name="BottonBar">
+        <item name="android:backgroundTint">@color/rojo</item>
+    </style>
+
+    <style name="fab">
+        <item name="android:backgroundTint">@color/aquamarina</item>
+        <item name="borderWidth">2dp</item>
+    </style>
+    
+
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+    <!-- Contenedor principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:padding="16dp">
+
+        <!-- Sección de plataformas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plataformas:"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/grisClaro"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- ChipGroup para plataformas -->
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:chipSpacing="8dp"
+            app:singleSelection="false">
+
+            <!-- Chips para seleccionar plataformas -->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipPS4"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PS4" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipPC"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PC" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipXBOX"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XBOX" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipWII"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WII" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipWIIU"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WIIU" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip3DS"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3DS" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipX360"
+                style="@style/Widget.MaterialComponents.Chip.Filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X360" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <!-- Sección de géneros -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Géneros:"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/grisClaro"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Lista de géneros -->
+        <ListView
+            android:id="@+id/listaGeneros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp" />
+
+    </LinearLayout>
+
+    <!-- BOTTOMBAR -->
+    <include layout="@layout/botton_bar">
+    </include>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
