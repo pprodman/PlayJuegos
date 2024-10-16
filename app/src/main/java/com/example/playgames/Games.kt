@@ -1,7 +1,9 @@
 package com.example.playgames
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import android.widget.CheckBox
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -56,6 +58,18 @@ class Games : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.getItemId()) {
+            (R.id.action_settings) -> {return true}
+            (R.id.action_add) -> {return true}
+            (R.id.action_buscar) -> {
+                val i = Intent(this, Search::class.java)
+                startActivity(i) ; return true
+            }
+            else -> return super.onOptionsItemSelected(item)
+        }
     }
 }
 
