@@ -65,7 +65,7 @@ class Games : AppCompatActivity() {
             (R.id.action_settings) -> {return true}
             (R.id.action_add) -> {return true}
             (R.id.action_buscar) -> {
-                val i = Intent(this, Search::class.java)
+                val i = Intent(this, GenerosActivity::class.java)
                 startActivity(i) ; return true
             }
             else -> return super.onOptionsItemSelected(item)

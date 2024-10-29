@@ -18,14 +18,15 @@ class Preferences : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.preferences)
 
+        // Configurar la Toolbar
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
+        // Obtener referencias a los elementos de la interfaz
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroup)
         val rb = findViewById<RatingBar>(R.id.ratingBar)
         val sb = findViewById<SeekBar>(R.id.seekBar)
-        val fab =
-            findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.selectPreferences)
+        val fab = findViewById<com.google.android.material.floatingactionbutton.FloatingActionButton>(R.id.selectPreferences)
 
 
         // Listener para cambios en el RatingBar
@@ -79,17 +80,19 @@ class Preferences : AppCompatActivity() {
         }
     }
 
+    // Método para crear el menú de opciones
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
 
+    // Método para manejar las acciones de los elementos del menú
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.getItemId()) {
             (R.id.action_settings) -> {return true}
             (R.id.action_add) -> {return true}
             (R.id.action_buscar) -> {
-                val i = Intent(this, Search::class.java)
+                val i = Intent(this, GenerosActivity::class.java)
                 startActivity(i) ; return true
             }
             else -> return super.onOptionsItemSelected(item)

@@ -148,7 +148,6 @@
         android:layout_marginEnd="16dp"
         android:hint="Phone"
         android:inputType="phone"
-        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/phoneIcon" />
