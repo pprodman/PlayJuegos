@@ -13,7 +13,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 
-
+/**
+ * Sección NEWPLAYER que muestra la pantalla de creación de un nuevo jugador.
+ */
 class NewPlayer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

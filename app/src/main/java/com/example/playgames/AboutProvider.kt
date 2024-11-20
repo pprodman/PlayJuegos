@@ -1,7 +1,10 @@
 package com.example.playgames
 
-/*
- * Clase AboutProvider que contiene una lista de objetos About
+/**
+ * Clase AboutProvider que contiene una lista de objetos About (desarrolladores)
+ * @property nombre Nombre del desarrollador
+ * @property numero Número de juegos desarrollados
+ * @property imagen Imagen del desarrollador
  */
 class AboutProvider {
     companion object{

@@ -11,6 +11,9 @@ import com.example.playgames.adapter.GeneroAdapter
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 
+/**
+ * Clase GenerosActivity que muestra una lista de géneros y plataformas.
+ */
 class GenerosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

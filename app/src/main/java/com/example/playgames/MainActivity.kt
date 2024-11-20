@@ -10,6 +10,15 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.content.res.ResourcesCompat
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * Entrada principal de la aplicacion Play Juegos
+ * Da acceso a las diferentes actividades de la aplicacion
+ * - Play
+ * - New Player
+ * - Preferences
+ * - About
+ * @author Pablo Rodriguez Manrique
+ */
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

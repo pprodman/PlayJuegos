@@ -1,6 +1,12 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("org.jetbrains.dokka") version "1.9.10"
+}
+
+
+subprojects {
+    apply(plugin = "org.jetbrains.dokka")
 }
 
 android {

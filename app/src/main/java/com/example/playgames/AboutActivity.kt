@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.playgames.adapter.AboutAdapter
 
-
+/**
+ * Sección ABOUT, que muestra información sobre la aplicación y el desarrollador.
+ */
 class AboutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,7 +18,9 @@ class AboutActivity : AppCompatActivity() {
 
         }
 
-    // Método para inicializar el RecyclerView
+    /**
+     * Inicializa el RecyclerView con el adaptador AboutAdapter.
+     */
     private fun initRecyclerView() {
         val manager = LinearLayoutManager(this)
         val decoration = DividerItemDecoration(this, manager.orientation)

@@ -12,7 +12,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 
-
+/**
+ * Sección PREFERENCIAS que muestra las preferencias del usuario.
+ */
 class Preferences : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -80,13 +82,17 @@ class Preferences : AppCompatActivity() {
         }
     }
 
-    // Método para crear el menú de opciones
+    /**
+     * Método que se llama cuando se crea el menú de opciones.
+     */
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
 
-    // Método para manejar las acciones de los elementos del menú
+    /**
+     * Método que se llama cuando se selecciona un elemento del menú.
+     */
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.getItemId()) {
             (R.id.action_settings) -> {return true}

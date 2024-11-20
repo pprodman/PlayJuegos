@@ -1,6 +1,9 @@
 package com.example.playgames
 
-// Clase Genero que contiene los atributos nombre
+/**
+ * Clase Genero de videojuegos
+ * @property nombre Nombre del genero
+ */
 data class Genero (
     val nombre:String
 )

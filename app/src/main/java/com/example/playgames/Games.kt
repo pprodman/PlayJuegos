@@ -10,6 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
+/**
+ * Sección PLAY que muestra la pantalla de juegos disponibles.
+ */
 class Games : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,11 +58,17 @@ class Games : AppCompatActivity() {
         }
     }
 
+    /**
+     * Método que se llama cuando se crea el menú de opciones.
+     */
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
 
+    /**
+     * Método que se llama cuando se selecciona un elemento del menú.
+     */
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.getItemId()) {
             (R.id.action_settings) -> {return true}
