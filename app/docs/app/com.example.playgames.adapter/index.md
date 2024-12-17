@@ -2,6 +2,9 @@
 
 # Adaptadores y ViewHolders
 
+- Adaptador y Viewholder para configurar el `RecyclerView` de la actividad About.
+- Adaptador y ViewHolder para configurar el `RecyclerView` de la actividad Genero.
+
 ## Types
 
 | Name | Summary |
