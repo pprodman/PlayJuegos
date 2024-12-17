@@ -18,11 +18,16 @@ En el proyecto Play Games, se aplica el contenido visto durante los temas 1 a 4 
 El proyecto Play Games se divide en las siguientes secciones:
 
 - #### **Games** (Seleccion de videojuego)
-  Muestra un listado donde seleccionar videojuegos
-- **New Player** (Creaciópn de nuevo jugador)
-- **Preferences** (Selección de preferencias del jugador)
-- **About** (Desarrolladores de del videojuego)
-- **Géneros** (Opcion de configuración del tipo de juego: plataforma y género)
+  Muestra un listado donde seleccionar videojuegos.
+- #### **New Player** (Creación de nuevo jugador)
+  Menu donde crear un nuevo jugador. Permite introducir nombre, nombre fonético, nickname, foto, teléfono e email.
+- #### **Preferences** (Selección de preferencias del jugador)
+  Permite seleccionar un juego y otorgarle una puntuación.
+- #### **About** (Desarrolladores del videojuego)
+  Listado de desarrolladores de videojuegos.
+- #### **Géneros** (Opcion de configuración del tipo de juego: plataforma y género)
+  Opcion ubicada en Settings, que permite seleccionar la plataforma y género de los videojuegos.
+  
 
 
 ## Autor
