@@ -1,10 +1,10 @@
 //[app](../../index.md)/[com.example.playgames.model](index.md)
 
 # Modelos y Data Class
-- About: contiene los atributos `nombre`, `numero` y `imagen` de los desarrolladores.
-- AboutProvider: contiene una lista de objetos About.
-- Genero: contiene el atributo `nombre` de los generos de videojuegos.
-- GeneroProvider: contiene una lista de objetos Genero.
+- **About**: contiene los atributos `nombre`, `numero` y `imagen` de los desarrolladores.
+- **AboutProvider**: contiene una lista de objetos About.
+- **Genero**: contiene el atributo `nombre` de los generos de videojuegos.
+- **GeneroProvider**: contiene una lista de objetos Genero.
 
 ## Types
 
