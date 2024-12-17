@@ -17,8 +17,8 @@ En el proyecto Play Games, se aplica el contenido visto durante los temas 1 a 4 
 
 El proyecto Play Games se divide en las siguientes secciones:
 
-Games** (Seleccion de videojuego)
-  #### Muestra un listado donde seleccionar videojuegos
+#### Games (Seleccion de videojuego)
+  Muestra un listado donde seleccionar videojuegos
 - **New Player** (Creaciópn de nuevo jugador)
 - **Preferences** (Selección de preferencias del jugador)
 - **About** (Desarrolladores de del videojuego)
