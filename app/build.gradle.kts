@@ -4,6 +4,25 @@ plugins {
     id("org.jetbrains.dokka") version "1.9.10"
 }
 
+tasks.dokkaGfm {
+    outputDirectory.set(file("docs")) // Directorio de salida
+    dokkaSourceSets {
+        configureEach {
+            // Filtra clases y métodos automáticos
+            suppressGeneratedFiles.set(true) // Excluye código generado automáticamente
+            skipDeprecated.set(true) // Omite elementos marcados como @Deprecated
+            reportUndocumented.set(true) // Documenta solo elementos con KDoc
+            includeNonPublic.set(false) // Excluye miembros no públicos
+
+            // Filtra archivos específicos o paquetes
+            perPackageOption {
+                matchingRegex.set(".*\\.internal.*") // Excluye paquetes internos
+                suppress.set(true)
+            }
+        }
+    }
+}
+
 
 subprojects {
     apply(plugin = "org.jetbrains.dokka")
