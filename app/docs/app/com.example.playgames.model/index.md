@@ -1,6 +1,10 @@
 //[app](../../index.md)/[com.example.playgames.model](index.md)
 
 # Modelos y Data Class
+- About: contiene los atributos 'nombre', `numero´ y `imagen´ de los desarrolladores
+-
+-
+-
 
 ## Types
 
