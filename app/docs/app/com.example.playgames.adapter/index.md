@@ -1,6 +1,6 @@
 //[app](../../index.md)/[com.example.playgames.adapter](index.md)
 
-# Package-level declarations
+# Adaptadores y ViewHolders
 
 ## Types
 
