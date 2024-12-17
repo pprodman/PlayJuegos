@@ -1,0 +1,65 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.example.playgames.adapter////PointingToDeclaration/app/com.example.playgames.adapter/index.md
+$dokka.location:com.example.playgames.adapter/AboutAdapter///PointingToDeclaration/app/com.example.playgames.adapter/-about-adapter/index.md
+$dokka.location:com.example.playgames.adapter/AboutAdapter/AboutAdapter/#kotlin.collections.List[com.example.playgames.model.About]/PointingToDeclaration/app/com.example.playgames.adapter/-about-adapter/-about-adapter.md
+$dokka.location:com.example.playgames.adapter/AboutAdapter/getItemCount/#/PointingToDeclaration/app/com.example.playgames.adapter/-about-adapter/get-item-count.md
+$dokka.location:com.example.playgames.adapter/AboutAdapter/onBindViewHolder/#com.example.playgames.adapter.AboutViewHolder#kotlin.Int/PointingToDeclaration/app/com.example.playgames.adapter/-about-adapter/on-bind-view-holder.md
+$dokka.location:com.example.playgames.adapter/AboutAdapter/onCreateViewHolder/#android.view.ViewGroup#kotlin.Int/PointingToDeclaration/app/com.example.playgames.adapter/-about-adapter/on-create-view-holder.md
+$dokka.location:com.example.playgames.adapter/AboutViewHolder///PointingToDeclaration/app/com.example.playgames.adapter/-about-view-holder/index.md
+$dokka.location:com.example.playgames.adapter/AboutViewHolder/AboutViewHolder/#android.view.View/PointingToDeclaration/app/com.example.playgames.adapter/-about-view-holder/-about-view-holder.md
+$dokka.location:com.example.playgames.adapter/AboutViewHolder/imagen/#/PointingToDeclaration/app/com.example.playgames.adapter/-about-view-holder/imagen.md
+$dokka.location:com.example.playgames.adapter/AboutViewHolder/nombre/#/PointingToDeclaration/app/com.example.playgames.adapter/-about-view-holder/nombre.md
+$dokka.location:com.example.playgames.adapter/AboutViewHolder/numero/#/PointingToDeclaration/app/com.example.playgames.adapter/-about-view-holder/numero.md
+$dokka.location:com.example.playgames.adapter/AboutViewHolder/render/#com.example.playgames.model.About/PointingToDeclaration/app/com.example.playgames.adapter/-about-view-holder/render.md
+$dokka.location:com.example.playgames.adapter/GeneroAdapter///PointingToDeclaration/app/com.example.playgames.adapter/-genero-adapter/index.md
+$dokka.location:com.example.playgames.adapter/GeneroAdapter/GeneroAdapter/#kotlin.collections.List[com.example.playgames.model.Genero]/PointingToDeclaration/app/com.example.playgames.adapter/-genero-adapter/-genero-adapter.md
+$dokka.location:com.example.playgames.adapter/GeneroAdapter/getItemCount/#/PointingToDeclaration/app/com.example.playgames.adapter/-genero-adapter/get-item-count.md
+$dokka.location:com.example.playgames.adapter/GeneroAdapter/onBindViewHolder/#com.example.playgames.adapter.GeneroViewHolder#kotlin.Int/PointingToDeclaration/app/com.example.playgames.adapter/-genero-adapter/on-bind-view-holder.md
+$dokka.location:com.example.playgames.adapter/GeneroAdapter/onCreateViewHolder/#android.view.ViewGroup#kotlin.Int/PointingToDeclaration/app/com.example.playgames.adapter/-genero-adapter/on-create-view-holder.md
+$dokka.location:com.example.playgames.adapter/GeneroViewHolder///PointingToDeclaration/app/com.example.playgames.adapter/-genero-view-holder/index.md
+$dokka.location:com.example.playgames.adapter/GeneroViewHolder/GeneroViewHolder/#android.view.View/PointingToDeclaration/app/com.example.playgames.adapter/-genero-view-holder/-genero-view-holder.md
+$dokka.location:com.example.playgames.adapter/GeneroViewHolder/nombre/#/PointingToDeclaration/app/com.example.playgames.adapter/-genero-view-holder/nombre.md
+$dokka.location:com.example.playgames.adapter/GeneroViewHolder/render/#com.example.playgames.model.Genero/PointingToDeclaration/app/com.example.playgames.adapter/-genero-view-holder/render.md
+$dokka.location:com.example.playgames.model////PointingToDeclaration/app/com.example.playgames.model/index.md
+$dokka.location:com.example.playgames.model/About///PointingToDeclaration/app/com.example.playgames.model/-about/index.md
+$dokka.location:com.example.playgames.model/About/About/#kotlin.String#kotlin.Int#kotlin.Int/PointingToDeclaration/app/com.example.playgames.model/-about/-about.md
+$dokka.location:com.example.playgames.model/About/imagen/#/PointingToDeclaration/app/com.example.playgames.model/-about/imagen.md
+$dokka.location:com.example.playgames.model/About/nombre/#/PointingToDeclaration/app/com.example.playgames.model/-about/nombre.md
+$dokka.location:com.example.playgames.model/About/numero/#/PointingToDeclaration/app/com.example.playgames.model/-about/numero.md
+$dokka.location:com.example.playgames.model/AboutProvider.Companion///PointingToDeclaration/app/com.example.playgames.model/-about-provider/-companion/index.md
+$dokka.location:com.example.playgames.model/AboutProvider.Companion/aboutList/#/PointingToDeclaration/app/com.example.playgames.model/-about-provider/-companion/about-list.md
+$dokka.location:com.example.playgames.model/AboutProvider///PointingToDeclaration/app/com.example.playgames.model/-about-provider/index.md
+$dokka.location:com.example.playgames.model/AboutProvider/AboutProvider/#/PointingToDeclaration/app/com.example.playgames.model/-about-provider/-about-provider.md
+$dokka.location:com.example.playgames.model/Genero///PointingToDeclaration/app/com.example.playgames.model/-genero/index.md
+$dokka.location:com.example.playgames.model/Genero/Genero/#kotlin.String/PointingToDeclaration/app/com.example.playgames.model/-genero/-genero.md
+$dokka.location:com.example.playgames.model/Genero/nombre/#/PointingToDeclaration/app/com.example.playgames.model/-genero/nombre.md
+$dokka.location:com.example.playgames.model/GeneroProvider.Companion///PointingToDeclaration/app/com.example.playgames.model/-genero-provider/-companion/index.md
+$dokka.location:com.example.playgames.model/GeneroProvider.Companion/generoList/#/PointingToDeclaration/app/com.example.playgames.model/-genero-provider/-companion/genero-list.md
+$dokka.location:com.example.playgames.model/GeneroProvider///PointingToDeclaration/app/com.example.playgames.model/-genero-provider/index.md
+$dokka.location:com.example.playgames.model/GeneroProvider/GeneroProvider/#/PointingToDeclaration/app/com.example.playgames.model/-genero-provider/-genero-provider.md
+$dokka.location:com.example.playgames////PointingToDeclaration/app/com.example.playgames/index.md
+$dokka.location:com.example.playgames/AboutActivity///PointingToDeclaration/app/com.example.playgames/-about-activity/index.md
+$dokka.location:com.example.playgames/AboutActivity/AboutActivity/#/PointingToDeclaration/app/com.example.playgames/-about-activity/-about-activity.md
+$dokka.location:com.example.playgames/GamesActivity///PointingToDeclaration/app/com.example.playgames/-games-activity/index.md
+$dokka.location:com.example.playgames/GamesActivity/GamesActivity/#/PointingToDeclaration/app/com.example.playgames/-games-activity/-games-activity.md
+$dokka.location:com.example.playgames/GamesActivity/onCreateOptionsMenu/#android.view.Menu/PointingToDeclaration/app/com.example.playgames/-games-activity/on-create-options-menu.md
+$dokka.location:com.example.playgames/GamesActivity/onOptionsItemSelected/#android.view.MenuItem/PointingToDeclaration/app/com.example.playgames/-games-activity/on-options-item-selected.md
+$dokka.location:com.example.playgames/GenerosActivity///PointingToDeclaration/app/com.example.playgames/-generos-activity/index.md
+$dokka.location:com.example.playgames/GenerosActivity/GenerosActivity/#/PointingToDeclaration/app/com.example.playgames/-generos-activity/-generos-activity.md
+$dokka.location:com.example.playgames/MainActivity///PointingToDeclaration/app/com.example.playgames/-main-activity/index.md
+$dokka.location:com.example.playgames/MainActivity/MainActivity/#/PointingToDeclaration/app/com.example.playgames/-main-activity/-main-activity.md
+$dokka.location:com.example.playgames/MainActivity/onCreateOptionsMenu/#android.view.Menu/PointingToDeclaration/app/com.example.playgames/-main-activity/on-create-options-menu.md
+$dokka.location:com.example.playgames/MainActivity/onOptionsItemSelected/#android.view.MenuItem/PointingToDeclaration/app/com.example.playgames/-main-activity/on-options-item-selected.md
+$dokka.location:com.example.playgames/NewPlayerActivity///PointingToDeclaration/app/com.example.playgames/-new-player-activity/index.md
+$dokka.location:com.example.playgames/NewPlayerActivity/NewPlayerActivity/#/PointingToDeclaration/app/com.example.playgames/-new-player-activity/-new-player-activity.md
+$dokka.location:com.example.playgames/NewPlayerActivity/onCreateOptionsMenu/#android.view.Menu/PointingToDeclaration/app/com.example.playgames/-new-player-activity/on-create-options-menu.md
+$dokka.location:com.example.playgames/NewPlayerActivity/onOptionsItemSelected/#android.view.MenuItem/PointingToDeclaration/app/com.example.playgames/-new-player-activity/on-options-item-selected.md
+$dokka.location:com.example.playgames/PreferencesActivity///PointingToDeclaration/app/com.example.playgames/-preferences-activity/index.md
+$dokka.location:com.example.playgames/PreferencesActivity/PreferencesActivity/#/PointingToDeclaration/app/com.example.playgames/-preferences-activity/-preferences-activity.md
+$dokka.location:com.example.playgames/PreferencesActivity/onCreateOptionsMenu/#android.view.Menu/PointingToDeclaration/app/com.example.playgames/-preferences-activity/on-create-options-menu.md
+$dokka.location:com.example.playgames/PreferencesActivity/onOptionsItemSelected/#android.view.MenuItem/PointingToDeclaration/app/com.example.playgames/-preferences-activity/on-options-item-selected.md
+com.example.playgames
+com.example.playgames.adapter
+com.example.playgames.model
+
