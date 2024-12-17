@@ -2,12 +2,12 @@
 
 # Actividades
 
-- MainActivity: Entrada principal de la aplicacion PlayJuegos, da acceso a las diferentes actividades de la aplicacion.
-- GamesActivity: Muestra la pantalla de juegos disponibles.
-- NewPlayerActivity: Muestra la pantalla de creación de un nuevo jugador.
-- PreferencesActivity: Muestra las preferencias del usuario.
-- AboutActivity: Muestra información sobre la aplicación y el desarrollador.
-- GenerosActivity: Muestra una lista de géneros y plataformas.
+- **MainActivity**: Entrada principal de la aplicacion PlayJuegos, da acceso a las diferentes actividades de la aplicacion.
+- **GamesActivity**: Muestra la pantalla de juegos disponibles.
+- **NewPlayerActivity**: Muestra la pantalla de creación de un nuevo jugador.
+- **PreferencesActivity**: Muestra las preferencias del usuario.
+- **AboutActivity**: Muestra información sobre la aplicación y el desarrollador.
+- **GenerosActivity**: Muestra una lista de géneros y plataformas.
 
 ## Types
 
