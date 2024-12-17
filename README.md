@@ -46,8 +46,7 @@ El proyecto Play Games se divide en las siguientes secciones:
 - El programa requiere la instalación previa de [Android Studio](https://developer.android.com/studio?hl=es-419).
 
 #### Descarga
-
-Clona el proyecto
+Clona el proyecto: abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
 
 ```bash
   $ git clone hhttps://github.com/pprodman/PlayJuegos
