@@ -47,21 +47,21 @@ class MainActivity : AppCompatActivity() {
     // Método para lanzar la actividad Games
     private fun lanzarGames() {
         // Crear un Intent para iniciar la actividad Game
-        val i = Intent(this, Games::class.java)
+        val i = Intent(this, GamesActivity::class.java)
         startActivity(i)
     }
 
     // Método para lanzar la actividad NewPlayer
     private fun lanzarNewPlayer() {
         // Crear un Intent para iniciar la actividad NewPlayer
-        val i = Intent(this, NewPlayer::class.java)
+        val i = Intent(this, NewPlayerActivity::class.java)
         startActivity(i)
     }
 
     // Método para lanzar la actividad Preferences
     private fun lanzarPreferencias() {
         // Crear un Intent para iniciar la actividad Preferences
-        val i = Intent(this, Preferences::class.java)
+        val i = Intent(this, PreferencesActivity::class.java)
         startActivity(i)
     }
 

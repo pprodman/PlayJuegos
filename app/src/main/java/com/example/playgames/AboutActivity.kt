@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.playgames.adapter.AboutAdapter
+import com.example.playgames.model.AboutProvider
 
 /**
  * Sección ABOUT, que muestra información sobre la aplicación y el desarrollador.

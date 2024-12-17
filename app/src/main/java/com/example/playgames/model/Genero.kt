@@ -1,4 +1,4 @@
-package com.example.playgames
+package com.example.playgames.model
 
 /**
  * Clase Genero de videojuegos

@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.playgames.adapter.GeneroAdapter
+import com.example.playgames.model.GeneroProvider
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 

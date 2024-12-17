@@ -5,7 +5,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.playgames.About
+import com.example.playgames.model.About
 import com.example.playgames.R
 
 /**

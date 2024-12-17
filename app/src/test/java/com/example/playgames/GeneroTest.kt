@@ -1,5 +1,6 @@
 package com.example.playgames
 
+import com.example.playgames.model.Genero
 import org.junit.Test
 import org.junit.Assert.*
 

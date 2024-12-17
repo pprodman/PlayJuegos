@@ -13,6 +13,7 @@ tasks.dokkaGfm {
             skipDeprecated.set(true) // Omite elementos marcados como @Deprecated
             reportUndocumented.set(true) // Documenta solo elementos con KDoc
             includeNonPublic.set(false) // Excluye miembros no públicos
+            suppressInheritedMembers.set(true) // Omite miembros heredados
 
             // Filtra archivos específicos o paquetes
             perPackageOption {

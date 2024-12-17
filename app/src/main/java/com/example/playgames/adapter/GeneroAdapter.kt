@@ -3,7 +3,7 @@ package com.example.playgames.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.playgames.Genero
+import com.example.playgames.model.Genero
 import com.example.playgames.R
 
 /**

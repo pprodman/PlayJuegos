@@ -16,7 +16,7 @@ import androidx.appcompat.widget.Toolbar
 /**
  * Sección NEWPLAYER que muestra la pantalla de creación de un nuevo jugador.
  */
-class NewPlayer : AppCompatActivity() {
+class NewPlayerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.new_player)

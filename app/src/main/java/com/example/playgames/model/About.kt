@@ -1,4 +1,4 @@
-package com.example.playgames
+package com.example.playgames.model
 
 /**
  * Clase About que contiene los atributos nombre, numero y imagen de los desarrolladores

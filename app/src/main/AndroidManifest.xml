@@ -19,17 +19,17 @@
             android:name=".GenerosActivity"
             android:exported="false" />
         <activity
-            android:name=".Games"
+            android:name=".GamesActivity"
             android:exported="false"
             android:label="@string/games"
             android:theme="@style/Theme.PlayGames" />
         <activity
-            android:name=".Preferences"
+            android:name=".PreferencesActivity"
             android:exported="false"
             android:label="@string/preferences"
             android:theme="@style/Theme.PlayGames" />
         <activity
-            android:name=".NewPlayer"
+            android:name=".NewPlayerActivity"
             android:exported="false"
             android:label="@string/new_player"
             android:theme="@style/Theme.PlayGames" />

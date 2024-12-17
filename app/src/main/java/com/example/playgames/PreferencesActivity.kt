@@ -15,7 +15,7 @@ import androidx.appcompat.widget.Toolbar
 /**
  * Sección PREFERENCIAS que muestra las preferencias del usuario.
  */
-class Preferences : AppCompatActivity() {
+class PreferencesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.preferences)

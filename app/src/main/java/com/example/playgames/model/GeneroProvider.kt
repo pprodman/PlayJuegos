@@ -1,4 +1,4 @@
-package com.example.playgames
+package com.example.playgames.model
 
 /**
  * Clase GeneroProvider que contiene una lista de objetos Genero (generos de juego)

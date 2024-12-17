@@ -4,7 +4,7 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.playgames.Genero
+import com.example.playgames.model.Genero
 import com.example.playgames.R
 
 /**

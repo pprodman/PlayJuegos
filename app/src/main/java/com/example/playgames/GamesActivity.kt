@@ -13,7 +13,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 /**
  * Sección PLAY que muestra la pantalla de juegos disponibles.
  */
-class Games : AppCompatActivity() {
+class GamesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.games)

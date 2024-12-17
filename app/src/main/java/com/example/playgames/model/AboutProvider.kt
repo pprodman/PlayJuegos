@@ -1,4 +1,6 @@
-package com.example.playgames
+package com.example.playgames.model
+
+import com.example.playgames.R
 
 /**
  * Clase AboutProvider que contiene una lista de objetos About (desarrolladores)
