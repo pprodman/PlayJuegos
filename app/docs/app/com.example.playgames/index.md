@@ -1,6 +1,6 @@
 //[app](../../index.md)/[com.example.playgames](index.md)
 
-# Package-level declarations
+# Actividades
 
 ## Types
 
