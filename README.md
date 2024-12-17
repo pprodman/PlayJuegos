@@ -17,10 +17,11 @@ En el proyecto Play Games, se aplica el contenido visto durante los temas 1 a 4 
 
 El proyecto Play Games se divide en las siguientes secciones:
 
-- Game
-- New Player
-- Preferences
-- About
+- **Games** (Seleccion de videojuego)
+- **New Player** (Creaciópn de nuevo jugador)
+- **Preferences** (Selección de preferencias del jugador)
+- **About** (Desarrolladores de del videojuego)
+- **Generos** (Opcion de configuración del tipo de juego: plataforma y género)
 
 
 ## Autor
@@ -30,10 +31,11 @@ El proyecto Play Games se divide en las siguientes secciones:
 
 ## Documentación
 
-[Documentation](https://linktodocumentation)
+[Actividades](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/index.md)
+[Modelos](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-games-activity/index.md)
+[Adapter-ViewHolder](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.adapter/index.md)
 
 
 ## Feedback
 
 If you have any feedback, please reach out to us at fake@fake.com
-
