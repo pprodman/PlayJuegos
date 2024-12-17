@@ -38,4 +38,4 @@ El proyecto Play Games se divide en las siguientes secciones:
 
 ## Feedback
 
-If you have any feedback, please reach out to us at fake@fake.com
+Si tienes algún comentario, comunícamelo en pabrodman@alu.edu.gva.es
