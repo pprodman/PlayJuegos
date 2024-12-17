@@ -1,6 +1,6 @@
 //[app](../../index.md)/[com.example.playgames.model](index.md)
 
-# Package-level declarations
+# Modelos y Data Class
 
 ## Types
 
