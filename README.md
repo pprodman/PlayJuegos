@@ -1,7 +1,7 @@
 
 # Play Games
 
-Proyecto de práctica para Desarrollo de Interfaces, asignatura de 2º curso del Ciclo de Grado Superior Desarrollo de Aplicaciones Multiplataforma (DAM).
+Proyecto de práctica para ***Desarrollo de Interfaces***, asignatura de 2º curso del Ciclo de Grado Superior Desarrollo de Aplicaciones Multiplataforma (DAM).
 
 
 ## Contenido
@@ -29,7 +29,6 @@ El proyecto Play Games se divide en las siguientes secciones:
   Opcion ubicada en Settings, que permite seleccionar la plataforma y género de los videojuegos.
   
 
-
 ## Autor
 
 - [@pprodman](https://www.github.com/pprodman)
@@ -41,6 +40,18 @@ El proyecto Play Games se divide en las siguientes secciones:
 - [Modelos](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.model/index.md)
 - [Adapter-ViewHolder](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.adapter/index.md)
 
+## Instalación
+
+#### Dependencias
+- El programa requiere la instalación previa de [Android Studio](https://developer.android.com/studio?hl=es-419).
+
+#### Descarga
+
+Clona el proyecto
+
+```bash
+  $ git clone hhttps://github.com/pprodman/PlayJuegos
+```
 
 ## Feedback
 
