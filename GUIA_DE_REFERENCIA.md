@@ -66,6 +66,13 @@ PlayGames/
 ````kotlin
 data class About(val imagen: Int, val nombre: String, val numero: Int)
 ````
+#### Uso
+La clase se utiliza para crear objetos que representen desarrolladores de la aplicación, facilitando su gestión y visualización.
+##### Ejemplo
+````kotlin
+val juanPalaciosDev = About( imagen = R.drawable.ic_juanpalacios, nombre = "Juan Palacios", numero = 25)
+````
+
 
 
 
@@ -77,12 +84,12 @@ data class About(val imagen: Int, val nombre: String, val numero: Int)
 ### Clase: `Genero`
 `Genero` es una clase de datos utilizada para representar la información del género de los videojuegos. Contiene un solo atributo:
 
-### Atributos
+#### Atributos
 | Nombre | Tipo | Descripción |
 |---|---|---|
 |`nombre`|`String`|Género del videojuego|
 
-### Declaración
+#### Declaración
 ````kotlin
 data class Genero(val nombre: String)
 ````
