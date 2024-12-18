@@ -20,8 +20,8 @@
 ### 2.3. Preferences ⚙️
 - Propósito: Configurar las preferencias del jugador.
 - Acciones:
-  - Ajusta parámetros como dificultad, idioma, o sonido.
-  - Guarda los cambios para personalizar tu experiencia.
+  - Selecciona un juego y puntúalo.
+  - Hazlo asignando estrellas o con la barra.
 
 ### 2.4. About 👥
 - Propósito: Información sobre los desarrolladores del proyecto.
