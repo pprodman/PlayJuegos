@@ -63,10 +63,22 @@ PlayGames/
 |`numero`|`Int`|Número de juegos desarrollados por el desarrollador|
 
 
-Clase utilitaria con métodos generales utilizados en todo el proyecto.
-- Funciones Importantes:
-  - getRandomGame(): Devuelve un juego aleatorio de la lista de juegos disponibles.
-  - loadImage(String imageUrl): Carga una imagen desde una URL para mostrar en las actividades.
+
+
+
+
+
+
+### Clase: `Genero`
+`Genero` es una clase de datos utilizada para representar la información del género de los videojuegos. Contiene un solo atributo:
+
+### Atributos
+| Nombre | Tipo | Descripción |
+|---|---|---|
+|`nombre`|`String`|Género del videojuego|
+
+
+
  
 ## Adapters
     
