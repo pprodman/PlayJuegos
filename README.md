@@ -25,11 +25,6 @@ El proyecto Play Games se divide en las siguientes secciones:
 - [Manual de Configuración](./MANUAL_CONFIGURACION.md)
 - [Guía de Referencia](./GUIA_DE_REFERENCIA.md)
 
-## Documentación del Proyecto
-- [Actividades](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/index.md)
-- [Modelos](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.model/index.md)
-- [Adapter-ViewHolder](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.adapter/index.md)
-
 ## Instalación
 1. **Requisitos previos**:  
    - Android Studio 2021.3 o superior.  
