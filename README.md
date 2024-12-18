@@ -1,7 +1,6 @@
 
 # Play Games 🎮
 
-## Descripción
 **Play Games** es un proyecto académico desarrollado para la asignatura de ***Desarrollo de Interfaces*** de 2º de DAM. Su objetivo es aplicar conceptos como diseño de layouts, temas, estilos y componentes básicos y avanzados en Android Studio. La aplicación incluye secciones como selección de videojuegos, creación de jugadores, preferencias, información sobre desarrolladores y configuración de géneros. Es un ejemplo práctico de cómo integrar funcionalidades y buenas prácticas en un entorno de desarrollo móvil.
 
 ## Contenido
