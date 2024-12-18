@@ -67,6 +67,8 @@ PlayJuegos/
     
 ## Flujo de Navegación
 1. **Pantalla de Inicio**: El usuario abre la aplicación y se dirige a la actividad MainActivity donde puede seleccionar cualquier de las secciones de la aplicación.
-2. Selección de Juego: Una vez creado el perfil, el usuario es dirigido a GameActivity, donde puede seleccionar un videojuego.
-3. Preferencias: Desde el menú de la aplicación, el usuario puede acceder a PreferencesActivity para ajustar la configuración.
-4. Información del Proyecto: El usuario también puede acceder a AboutActivity para conocer más sobre el proyecto y sus desarrolladores.
+2. **Selección de Juego**: Una vez creado el perfil, el usuario es dirigido a GameActivity, donde puede seleccionar un videojuego.
+3. **Creación de perfil**: El usuario puede crear un perfil como jugador, introduciendo sus datos personales.
+4. **Preferencias**: Desde el menú de la aplicación, el usuario puede acceder a PreferencesActivity para ajustar la configuración.
+5. **Información del Proyecto**: El usuario también puede acceder a AboutActivity para conocer más sobre el proyecto y sus desarrolladores.
+6. **Configuración**: El usuario puede acceder a la sección de configuración, accediendo a GeneroActivity y seleccionar las plataformas y generos que desee. 
