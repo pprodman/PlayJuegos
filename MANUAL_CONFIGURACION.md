@@ -7,19 +7,19 @@ Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 #### 1. **Android Studio**
 - Versión recomendada: **Arctic Fox (2020.3.1)** o superior.
 - Descarga desde [aquí](https://developer.android.com/studio?hl=es-419).
-2. **SDK de Android**
+#### 2. **SDK de Android**
 - Versión mínima del SDK: **21** (Android 5.0, Lollipop).
 - Versión objetivo del SDK: **33** (Android 13).
 - **Herramientas necesarias**
    - Build Tools: 33.0.0 o superior.
   - Gradle: 7.0.0 o superior.
-3. **Java**
+#### 3. **Java**
 - Versión recomendada: **JDK 17.**
-4. **Kotlin**
+#### 4. **Kotlin**
 - Versión utilizada: **1.8.0.**
 
 ## Pasos para Configurar el Proyecto
-1. **Abrir el proyecto en Android Studio**
+#### 1. **Abrir el proyecto en Android Studio**
   - Descarga o clona el repositorio del proyecto:
   ````bash
   git clone https://github.com/tu-usuario/play-games.git
@@ -27,11 +27,11 @@ Asegúrate de cumplir con los siguientes requisitos antes de empezar:
   - Abre Android Studio y selecciona **Open an Existing Project**.
   - Navega hasta la carpeta donde se encuentra el proyecto clonado.
 
-2. **Configurar el SDK y JDK**
+#### 2. **Configurar el SDK y JDK**
   - Ve a **File > Project Structure > SDK Location** y verifica que las rutas del SDK y JDK sean correctas.
   - Si es necesario, instala las herramientas desde el **SDK Manager** en Android Studio.
 
-3. **Sincronizar Gradle**
+#### 3. **Sincronizar Gradle**
 - Android Studio detectará automáticamente el archivo `build.gradle`.
 - Pulsa en **Sync Now** para descargar las dependencias necesarias.
 
