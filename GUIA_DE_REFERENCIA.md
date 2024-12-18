@@ -43,7 +43,7 @@ PlayGames/
 
 | Nombre | Descripción | 
 |---|---|
-| `MainActivity.ks`| Pantalla principal de la aplicación, donde se muestra el acceso al resto de secciones |
+| [`MainActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-main-activity/index.md)| Pantalla principal de la aplicación, donde se muestra el acceso al resto de secciones |
 | `GameActivity.ks`| Permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles| 
 | `NewPlayerActivity.ks`| Permite al usuario crea un nuevo perfil de jugador| 
 | `PreferencesActivity.ks`| Permite configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz| 
