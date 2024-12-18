@@ -1,7 +1,7 @@
 
 # Manual de Usuario
 
-## Indice
+## Índice
 
 1. [Introducción](#introducción)
 2. [Requisitos del Sistema](#requisitos-del-sistema)
