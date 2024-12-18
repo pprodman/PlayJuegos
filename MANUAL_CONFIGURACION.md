@@ -26,7 +26,7 @@ Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 #### 1. **Abrir el proyecto en Android Studio**
 - Descarga o clona el repositorio del proyecto:
   ````bash
-  git clone https://github.com/tu-usuario/play-games.git
+  git clone https://github.com/pprodman/PlayGames.git
   ````
 - Abre Android Studio y selecciona **Open an Existing Project**.
 - Navega hasta la carpeta donde se encuentra el proyecto clonado.
