@@ -54,13 +54,13 @@ Antes de instalar la aplicación, asegúrate de cumplir con los siguientes requi
 
 ## Resolución de Problemas
 1. **Error de instalación del APK**
-      - Asegúrate de haber habilitado la opción Fuentes desconocidas en la configuración del dispositivo.
+      - Asegúrate de haber habilitado la opción **Fuentes desconocidas** en la configuración del dispositivo.
       - Verifica que el archivo APK no esté corrupto descargándolo nuevamente.
 2. **Problemas con Android Studio**
       - Actualiza Android Studio a la última versión disponible.
       -Asegúrate de tener instalados los paquetes necesarios desde el SDK Manager.
 3. **Error de conexión con el dispositivo**
-      - Activa el modo Depuración USB en tu dispositivo:
-      - Ve a Configuración > Opciones de desarrollador > Depuración USB.
+      - Activa el modo **Depuración USB** en tu dispositivo:
+      - Ve a **Configuración > Opciones de desarrollador > Depuración USB**.
       - Revisa el cable USB o intenta usar otro puerto.
 
