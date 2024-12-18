@@ -2,11 +2,11 @@
 Este manual está diseñado para ayudarte a mantener y gestionar el proyecto **Play Games** de manera sencilla y efectiva durante el curso de Desarrollo de Interfaces.
 
 ## Índice
-1. Gestión de Versiones
-2. Mantenimiento de Dependencias
-3. Actualización de Android Studio y SDK
-4. Supervisión de Pruebas
-5. Resolución de Problemas Comunes
+1. [Gestión de Versiones](#gestión-de-versiones)
+2. [Mantenimiento de Dependencias](#mantenimiento-de-dependencias)
+3. [Actualización de Android Studio y SDK](#actualización-de-android-studio-y-sdk)
+4. [Supervisión de Pruebas](#supervisión-de-pruebas)
+5. [Resolución de Problemas Comunes](#resolución-de-problemas-comunes)
    
 ## Gestión de Versiones
 #### 1. Uso de Git:
