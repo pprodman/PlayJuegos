@@ -12,22 +12,22 @@ PlayGames/
 │   │   ├── main/
 │   │   │   ├── java/
 │   │   │   │   └── com.example.playgames/
-│   │   │   │       │   ├── MainActivity.java
-│   │   │   │       │   ├── GameActivity.java
-│   │   │   │       │   ├── NewPlayerActivity.java
-│   │   │   │       │   ├── PreferencesActivity.java
-│   │   │   │       │   ├── AboutActivity.java
-│   │   │   │       │   └── GeneroActivity.java
+│   │   │   │       │   ├── MainActivity.kt
+│   │   │   │       │   ├── GameActivity.kt
+│   │   │   │       │   ├── NewPlayerActivity.kt
+│   │   │   │       │   ├── PreferencesActivity.kt
+│   │   │   │       │   ├── AboutActivity.kt
+│   │   │   │       │   └── GeneroActivity.kt
 │   │   │   │       ├── model/
-│   │   │   │       │   ├── About.java
-│   │   │   │       │   ├── AboutProvider.java
-│   │   │   │       │   ├── Genero.java
-│   │   │   │       │   └── GeneroProvider.java
+│   │   │   │       │   ├── About.kt
+│   │   │   │       │   ├── AboutProvider.kt
+│   │   │   │       │   ├── Genero.kt
+│   │   │   │       │   └── GeneroProvider.kt
 │   │   │   │       ├── adapter/
-│   │   │   │       │   ├── AboutAdapter.java
-│   │   │   │       │   ├── AboutViewHolder.java
-│   │   │   │       │   ├── GeneroAdapter.java
-│   │   │   │       │   └── GeneroViewHolder.java
+│   │   │   │       │   ├── AboutAdapter.kt
+│   │   │   │       │   ├── AboutViewHolder.kt
+│   │   │   │       │   ├── GeneroAdapter.kt
+│   │   │   │       │   └── GeneroViewHolder.kt
 │   │   │   ├── res/
 │   │   │   │   ├── layout/
 │   │   │   │   ├── drawable/
