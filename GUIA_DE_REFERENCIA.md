@@ -6,7 +6,6 @@ El proyecto **PlayGames** es una aplicación para Android desarrollada en el mar
 El proyecto se organiza en las siguientes carpetas y archivos clave:
 
 ````css
-Copiar código
 PlayJuegos/
 ├── app/
 │   ├── src/
