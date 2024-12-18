@@ -7,7 +7,7 @@
 2. Requisitos del Sistema
 3. Instalación
 4. Primeros Pasos
-5. [Navegación por la Aplicación](#navegacion-por-la-aplicación)
+5. [Navegación por la Aplicación](#navegacion-por-la-aplicacion)
 - Menu Principal 
 - Game
 - New Player
