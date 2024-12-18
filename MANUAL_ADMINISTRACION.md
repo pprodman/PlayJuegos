@@ -1,4 +1,4 @@
-# Manual de Administración del Proyecto - Play Games
+# 🗂️ Manual de Administración del Proyecto - Play Games
 Este manual está diseñado para ayudarte a mantener y gestionar el proyecto **Play Games** de manera sencilla y efectiva durante el curso de Desarrollo de Interfaces.
 
 ## Índice
