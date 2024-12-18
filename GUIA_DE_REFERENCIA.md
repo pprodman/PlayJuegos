@@ -12,15 +12,22 @@ PlayJuegos/
 │   │   ├── main/
 │   │   │   ├── java/
 │   │   │   │   └── com.example.playjuegos/
-│   │   │   │       ├── activities/
+│   │   │   │       │   ├── MainActivity.java
 │   │   │   │       │   ├── GameActivity.java
 │   │   │   │       │   ├── NewPlayerActivity.java
 │   │   │   │       │   ├── PreferencesActivity.java
-│   │   │   │       │   └── AboutActivity.java
-│   │   │   │       ├── models/
-│   │   │   │       │   └── Player.java
-│   │   │   │       ├── utils/
-│   │   │   │       │   └── Utils.java
+│   │   │   │       │   ├── AboutActivity.java
+│   │   │   │       │   └── GeneroActivity.java
+│   │   │   │       ├── model/
+│   │   │   │       │   ├── About.java
+│   │   │   │       │   ├── AboutProvider.java
+│   │   │   │       │   ├── Genero.java
+│   │   │   │       │   └── GeneroProvider.java
+│   │   │   │       ├── adapter/
+│   │   │   │       │   ├── AboutAdapter.java
+│   │   │   │       │   ├── AboutViewHolder.java
+│   │   │   │       │   ├── GeneroAdapter.java
+│   │   │   │       │   └── GeneroViewHolder.java
 │   │   │   ├── res/
 │   │   │   │   ├── layout/
 │   │   │   │   ├── drawable/
