@@ -23,7 +23,7 @@ El proyecto Play Games se divide en las siguientes secciones:
 - [Manual de Instalación](./MANUAL_INSTALACION.md)
 - [Manual de Administración](./MANUAL_ADMINISTRACION.md)
 - [Manual de Configuración](./MANUAL_CONFIGURACION.md)
-- [Guía de Referencia](./GUIA_REFERENCIA.md)
+- [Guía de Referencia](./GUIA_DE_REFERENCIA.md)
 
 ## Documentación del Proyecto
 - [Actividades](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/index.md)
