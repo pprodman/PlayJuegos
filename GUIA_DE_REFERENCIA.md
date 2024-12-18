@@ -47,7 +47,7 @@ PlayGames/
 │   └── AndroidManifest.xml
 └── README.md
 ````
-## Documentación del Proyecto
+## Documentación del Proyecto `Dokka`
 - [Actividades](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/index.md)
 - [Modelos](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.model/index.md)
 - [Adapter-ViewHolder](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.adapter/index.md)
