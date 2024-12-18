@@ -166,7 +166,7 @@ class AboutViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 }
 ````
 #### Componentes
-##### 1. Atributos de Vista: Los elementos de la vista se enlazan mediante `findViewById`:
+1. **Atributos de Vista**: Los elementos de la vista se enlazan mediante `findViewById`:
 - nombre: Muestra el nombre asociado al objeto About.
 - numero: Representa el número o cantidad asociada.
 - imagen: Contiene una imagen representativa del objeto.
