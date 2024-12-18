@@ -46,14 +46,14 @@ Este manual está diseñado para explicar las funcionalidades de la app y servir
 ## Navegación por la Aplicación
 
 ### 1. Menú Principal
-Acceso principal de la aplicación. En ella se muestra las cuatro secciones principales y la configuración en la barra superior.
+Acceso principal de la aplicación. En ella se muestra las cuatro secciones principales y el acceso a la configuración a través del menú de tres puntos en la barra superior.
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/intro.png" alt="Menú Principal" width="250"/>
 
 ### 2. Game
 En esta sección puedes acceder al núcleo del juego.
-- Iniciar Juego: Comienza una nueva partida.
-- Puntuación: Visualiza el progreso y los resultados obtenidos.
+- Permite seleccionar el juego deseado.
+- Muestra el nombre del juego seleccionado al clickar sobre el boton de verificación.
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/play.png" alt="Game" width="250"/>
 
