@@ -35,7 +35,7 @@ Antes de instalar la aplicación, asegúrate de cumplir con los siguientes requi
 
 Descarga el código fuente desde el repositorio de GitHub:
 ```bash
-Copiar código
+#Copiar código
 git clone https://github.com/tu-repositorio/play-games.git
 ```
 Abrir en Android Studio
