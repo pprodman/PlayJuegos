@@ -3,7 +3,7 @@
 ## Índice
 1. [Descripción General](#descripción-general)
 2. [Estructura del Proyecto](#estructura-del-proyecto)
-3. [Documentación del Proyecto *Dokka*](#documentacion-del-proyecto-`dokka`)
+3. [Documentación del Proyecto *Dokka*](#documentación-del-proyecto-dokka)
 4. [Actividades](#actividades)
 5. [Modelos](#modelos)
 6. [Adapters](#adapters)
