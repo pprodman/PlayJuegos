@@ -1,5 +1,5 @@
 
-# Play Games
+# Play Games 🎮
 
 Proyecto de práctica para ***Desarrollo de Interfaces***, asignatura de 2º curso del Ciclo de Grado Superior Desarrollo de Aplicaciones Multiplataforma (DAM).
 
