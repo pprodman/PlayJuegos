@@ -62,6 +62,10 @@ PlayGames/
 |`nombre`|`String`|Nombre del desarrollador|
 |`numero`|`Int`|Número de juegos desarrollados por el desarrollador|
 
+### Declaración
+````bash
+data class About(val imagen: Int, val nombre: String, val numero: Int)
+
 
 
 
