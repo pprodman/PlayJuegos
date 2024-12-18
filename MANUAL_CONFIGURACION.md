@@ -36,16 +36,17 @@ Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 - Pulsa en **Sync Now** para descargar las dependencias necesarias.
 
 ## Dependencias Requeridas
-El proyecto utiliza las siguientes dependencias, que se encuentran definidas en el archivo build.gradle:
+El proyecto utiliza las siguientes dependencias, que se encuentran definidas en el archivo `build.gradle`:
 
-Dependencias principales
-gradle
-Copiar código
+### Dependencias principales
+````gradle
 implementation 'androidx.appcompat:appcompat:1.6.1'
 implementation 'com.google.android.material:material:1.9.0'
 implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 implementation 'androidx.lifecycle:lifecycle-viewmodel:2.6.1'
-Librerías adicionales
+````
+
+### Librerías adicionales
 Retrofit (para consumir APIs):
 
 gradle
