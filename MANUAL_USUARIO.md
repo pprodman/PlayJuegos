@@ -1,5 +1,5 @@
 
-# 📖 Manual de Usuario
+# 📖 Manual de Usuario - Play Games
 
 ## Índice
 
