@@ -132,7 +132,7 @@ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AboutViewHold
 }
 ````
 
-##### 2. onBindViewHolder:
+##### 2. `onBindViewHolder`:
 - Se ejecuta para enlazar los datos de un objeto `About` con su respectivo `ViewHolder`.
 - Obtiene el objeto correspondiente según la posición y llama al método `render` del `ViewHolder`.
 ````kotlin
@@ -141,12 +141,12 @@ override fun onBindViewHolder(holder: AboutViewHolder, position: Int) {
     holder.render(item)
 }
 ````
-##### 3. getItemCount:
+##### 3. `getItemCount`:
 - Devuelve el número total de elementos en la lista `aboutList`.
 ````kotlin
 override fun getItemCount(): Int = aboutList.size
 ````
-### Uso en el Proyecto
+#### Uso en el Proyecto
 El adaptador `AboutAdapter` se utiliza para mostrar datos dinámicos en un `RecyclerView`. Un ejemplo típico de configuración sería:
 
 ````kotlin
