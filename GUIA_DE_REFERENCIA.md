@@ -43,35 +43,13 @@ PlayGames/
 
 | Nombre | Descripción | 
 |---|---|
-| `MainActivity.ks`| hola |
-| `GameActivity.ks`| Actividad que permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles| 
-| `NewPlayerActivity.ks`| Actividad donde el usuario crea un nuevo perfil de jugador| 
-| `PreferencesActivity.ks`| Actividad para configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz| 
+| `MainActivity.ks`| Pantalla principal de la aplicación, donde se muestra el acceso al resto de secciones |
+| `GameActivity.ks`| Permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles| 
+| `NewPlayerActivity.ks`| Permite al usuario crea un nuevo perfil de jugador| 
+| `PreferencesActivity.ks`| Permite configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz| 
 | `AboutActivity.ks`| Muestra información sobre los desarrolladores y el proyecto| 
-| `GeneroActivity.ks`| Actividad que permite filtrar a los usuarios el videojuego en función de la plataforma y el género | 
+| `GeneroActivity.ks`| Permite filtrar a los usuarios el videojuego en función de la plataforma y el género | 
 
-#### `GameActivity.ks`
-- Descripción: Actividad que permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles.
-- Métodos Importantes:
-  - onCreate(Bundle savedInstanceState): Inicializa la actividad, establece el layout y carga los datos del videojuego.
-  - startGame(): Llama a la lógica para iniciar un nuevo juego o muestra detalles del juego seleccionado.
-
-#### `NewPlayerActivity.ks`
-- Descripción: Actividad donde el usuario crea un nuevo perfil de jugador.
-- Métodos Importantes:
-  - onCreate(Bundle savedInstanceState): Establece el formulario para ingresar el nombre del jugador.
-  - savePlayerName(String playerName): Guarda el nombre del jugador en las preferencias de la aplicación.
-
-#### `PreferencesActivity.ks`
-- Descripción: Actividad para configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz.
-- Métodos Importantes:
-  - onCreate(Bundle savedInstanceState): Muestra las opciones de configuración, como el tema y las preferencias de sonido.
-  - savePreferences(): Guarda las configuraciones seleccionadas por el usuario.
-
-#### `AboutActivity.ks`
-- Descripción: Muestra información sobre los desarrolladores y el proyecto.
-- Métodos Importantes:
-  - onCreate(Bundle savedInstanceState): Muestra los detalles del equipo de desarrollo y los objetivos del proyecto.
 
 ## Modelos
 
