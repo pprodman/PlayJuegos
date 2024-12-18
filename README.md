@@ -1,6 +1,8 @@
 
 # Play Games 🎮
-Proyecto de práctica para ***Desarrollo de Interfaces***, asignatura de 2º curso del Ciclo de Grado Superior Desarrollo de Aplicaciones Multiplataforma (DAM).
+
+## Descripción
+**Play Games** es un proyecto académico desarrollado para la asignatura de ***Desarrollo de Interfaces*** de 2º de DAM. Su objetivo es aplicar conceptos como diseño de layouts, temas, estilos y componentes básicos y avanzados en Android Studio. La aplicación incluye secciones como selección de videojuegos, creación de jugadores, preferencias, información sobre desarrolladores y configuración de géneros. Es un ejemplo práctico de cómo integrar funcionalidades y buenas prácticas en un entorno de desarrollo móvil.
 
 ## Contenido
 En el proyecto Play Games, se aplica el contenido visto durante los temas 1 a 4 de la asignatura:
@@ -8,9 +10,6 @@ En el proyecto Play Games, se aplica el contenido visto durante los temas 1 a 4 
 - Paneles (layouts), temas y estilos.
 - Componentes básicos.
 - Componentes avanzados.
-
-## Descripción
-**Play Games** es un proyecto académico desarrollado para la asignatura de Desarrollo de Interfaces de 2º de DAM. Su objetivo es aplicar conceptos como diseño de layouts, temas, estilos y componentes básicos y avanzados en Android Studio. La aplicación incluye secciones como selección de videojuegos, creación de jugadores, preferencias, información sobre desarrolladores y configuración de géneros. Es un ejemplo práctico de cómo integrar funcionalidades y buenas prácticas en un entorno de desarrollo móvil.
 
 ## Secciones
 El proyecto Play Games se divide en las siguientes secciones:
