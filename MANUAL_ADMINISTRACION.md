@@ -58,14 +58,12 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-8.0.2-all.zip
 #### 1. Pruebas unitarias:
 - Usa las pruebas incluidas en el proyecto para comprobar que las funciones principales trabajan correctamente:
 ````bash
-Copiar código
 ./gradlew test
 ````
 #### 2. Pruebas de interfaz:
 
 Si tienes pruebas de interfaz (UI), ejecútalas para verificar que la app funciona en dispositivos:
 ````bash
-Copiar código
 ./gradlew connectedAndroidTest
 ````
 ## Resolución de Problemas Comunes
@@ -73,7 +71,6 @@ Copiar código
 - Verifica tu conexión a Internet.
 - Limpia y reconstruye el proyecto:
 ````bash
-Copiar código
 ./gradlew clean build
 ````
 #### 2. Problemas con dependencias:
