@@ -22,8 +22,8 @@ Antes de instalar la aplicación, asegúrate de cumplir con los siguientes requi
 #### 1. Descargar el APK
 - Descarga el archivo `PlayGames.apk` desde el repositorio de GitHub o la ubicación proporcionada.
 #### 2. Permitir instalación de aplicaciones desconocidas
-- En tu dispositivo Android, ve a *Configuración > Seguridad*.
-- Activa la opción *Permitir instalación de aplicaciones desconocidas*.
+- En tu dispositivo Android, ve a **Configuración > Seguridad**.
+- Activa la opción **Permitir instalación de aplicaciones desconocidas**.
 #### 3. Instalar el APK
 - Abre el archivo APK descargado.
 - Sigue las instrucciones en pantalla y selecciona **Instalar**.
@@ -31,36 +31,37 @@ Antes de instalar la aplicación, asegúrate de cumplir con los siguientes requi
 - Una vez instalada, abre la aplicación desde el menú principal de tu dispositivo.
 
 ## Instalación desde Código Fuente
-1. **Clonar el repositorio**
-      - Descarga el código fuente desde el repositorio de GitHub:
-      ```bash
-      git clone https://github.com/tu-repositorio/play-games.git
-      ```
-2. **Abrir en Android Studio**
-      - Abre Android Studio y selecciona **File > Open....**
-      - Navega hasta la carpeta del proyecto descargado y ábrela.
-  
-3. **Configurar el entorno**
-      - Asegúrate de que tienes las herramientas necesarias instaladas:
-      - **SDK de Android 8.0 (Oreo)** o superior.
-      - Gradle configurado correctamente (Android Studio lo hará automáticamente).
+#### 1. Clonar el repositorio
+- Descarga el código fuente desde el repositorio de GitHub:
+  ```bash
+  git clone https://github.com/tu-repositorio/play-games.git
+  ```
+#### 2. Abrir en Android Studio
+- Abre Android Studio y selecciona **File > Open....**
+- Navega hasta la carpeta del proyecto descargado y ábrela.
 
-4. **Compilar y ejecutar**
-      - Conecta tu dispositivo Android mediante USB o selecciona un emulador.
-      - Haz clic en el botón **Run** (o presiona `Shift + F10`) para compilar y ejecutar la app.
+#### 3. Configurar el entorno
+- Asegúrate de que tienes las herramientas necesarias instaladas:
+- **SDK de Android 8.0 (Oreo)** o superior.
+- Gradle configurado correctamente (Android Studio lo hará automáticamente).
 
-5. **Instalar en el dispositivo**
-      - Una vez compilada, la aplicación se instalará automáticamente en el dispositivo conectado.
+#### 4. Compilar y ejecutar
+- Conecta tu dispositivo Android mediante USB o selecciona un emulador.
+- Haz clic en el botón **Run** (o presiona `Shift + F10`) para compilar y ejecutar la app.
+
+#### 5. Instalar en el dispositivo
+- Una vez compilada, la aplicación se instalará automáticamente en el dispositivo conectado.
 
 ## Resolución de Problemas
-1. **Error de instalación del APK**
-      - Asegúrate de haber habilitado la opción **Fuentes desconocidas** en la configuración del dispositivo.
-      - Verifica que el archivo APK no esté corrupto descargándolo nuevamente.
-2. **Problemas con Android Studio**
-      - Actualiza Android Studio a la última versión disponible.
-      -Asegúrate de tener instalados los paquetes necesarios desde el SDK Manager.
-3. **Error de conexión con el dispositivo**
-      - Activa el modo **Depuración USB** en tu dispositivo:
-      - Ve a **Configuración > Opciones de desarrollador > Depuración USB**.
-      - Revisa el cable USB o intenta usar otro puerto.
+#### 1. Error de instalación del APK
+- Asegúrate de haber habilitado la opción **Fuentes desconocidas** en la configuración del dispositivo.
+- Verifica que el archivo APK no esté corrupto descargándolo nuevamente.
+- 
+#### 2. Problemas con Android Studio
+- Actualiza Android Studio a la última versión disponible.
+- Asegúrate de tener instalados los paquetes necesarios desde el SDK Manager.
+#### 3. Error de conexión con el dispositivo
+- Activa el modo **Depuración USB** en tu dispositivo:
+- Ve a **Configuración > Opciones de desarrollador > Depuración USB**.
+- Revisa el cable USB o intenta usar otro puerto.
 
