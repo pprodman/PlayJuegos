@@ -82,6 +82,11 @@ data class About(val imagen: Int, val nombre: String, val numero: Int)
 |---|---|---|
 |`nombre`|`String`|Género del videojuego|
 
+### Declaración
+````kotlin
+data class Genero(val nombre: String)
+````
+
 
 
  
