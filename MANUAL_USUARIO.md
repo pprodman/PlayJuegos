@@ -13,7 +13,7 @@
   - [New Player](#3-new-player)
   - [Preferences](#4-preferences)
   - [About](#5-about)
-  - [Configuración](#6-configuracion)
+  - [Configuración](#6-configuración)
 6. Preguntas Frecuentes (FAQ)
 7. Notas del Estudiante
 
