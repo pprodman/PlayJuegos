@@ -12,11 +12,11 @@ Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 - Versión recomendada: **Arctic Fox (2020.3.1)** o superior.
 - Descarga desde [aquí](https://developer.android.com/studio?hl=es-419).
 #### 2. **SDK de Android**
-- Versión mínima del SDK: **21** (Android 5.0, Lollipop).
-- Versión objetivo del SDK: **33** (Android 13).
+- Versión mínima del SDK: **26** (Android 8.0, Oreo).
+- Versión objetivo del SDK: **34** (Android 14).
 - **Herramientas necesarias**
    - Build Tools: 33.0.0 o superior.
-  - Gradle: 7.0.0 o superior.
+  - Gradle: 8.7.0 o superior.
 #### 3. **Java**
 - Versión recomendada: **JDK 17.**
 #### 4. **Kotlin**
