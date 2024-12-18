@@ -9,7 +9,7 @@
 4. Primeros Pasos
 5. [Navegación por la Aplicación](#navegacion-por-la-aplicacion)
 - Menu Principal 
-- Game
+- [Game](#2-game)
 - New Player
 - Preferences
 - About
