@@ -67,14 +67,14 @@ Permite crear un nuevo jugador.
 ### 4. Preferences
 Configura las opciones de la aplicación según tus preferencias.
 - Selecciona  un juego y puntúalo.
-- Se puede puntuar mediante estrellas o barra de nivel, en un rango desde 1 hasta 5 puntos.
+- Se puede puntuar mediante estrellas o barra de nivel, en un rango desde 1 hasta 7 puntos.
+- Una vez pulsado el botón de verificación, se muestra el juego y la puntuación marcadas.
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/preferences.png" alt="Preferences" width="250"/>
 
 ### 5. About
 Consulta información sobre la aplicación y los desarrolladores.
-- Detalles sobre el propósito de la app.
-- Información de la versión actual.
+- Detallan imagen, nombre y juego desarrollados por cada desarrollador.
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/about.png" alt="About" width="250"/>
 
@@ -82,6 +82,7 @@ Consulta información sobre la aplicación y los desarrolladores.
 En la opcion de Configuración de la barra superior, podremos acceder a la opcion de búsqueda. En ella se puede seleccionar:
 - Plataformas de videojuegos.
 - Géneros de videojuegos.
+- Una vez sele
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/settings.png" alt="Configuración" width="250"/>
 
