@@ -19,11 +19,11 @@ El proyecto Play Games se divide en las siguientes secciones:
 - **Géneros** (Opcion de configuración del tipo de juego: plataforma y género)
 
  ## Manuales
-- [Manual de Usuario](./MANUAL_USUARIO.md)
-- [Manual de Instalación](./MANUAL_INSTALACION.md)
-- [Manual de Administración](./MANUAL_ADMINISTRACION.md)
-- [Manual de Configuración](./MANUAL_CONFIGURACION.md)
-- [Guía de Referencia](./GUIA_DE_REFERENCIA.md)
+- [Manual de Usuario](./MANUAL_USUARIO.md): Proporciona instrucciones detalladas sobre cómo usar la aplicación y sus funcionalidades principales.
+- [Manual de Instalación](./MANUAL_INSTALACION.md): Explica los pasos necesarios para descargar, instalar y configurar el proyecto en Android Studio.
+- [Manual de Administración](./MANUAL_ADMINISTRACION.md): Describe cómo gestionar y mantener el proyecto, incluyendo buenas prácticas para la organización del código y la documentación.
+- [Manual de Configuración](./MANUAL_CONFIGURACION.md): Detalla las versiones requeridas de Android, SDK, Java, y dependencias necesarias para el correcto funcionamiento del proyecto.
+- [Guía de Referencia](./GUIA_DE_REFERENCIA.md): Contiene información técnica sobre las principales clases, métodos y estructuras utilizadas en el proyecto.
 
 ## Instalación
 1. **Requisitos previos**:  
