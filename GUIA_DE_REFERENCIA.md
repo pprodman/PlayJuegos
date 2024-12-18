@@ -2,7 +2,7 @@
 ## Descripción General
 El proyecto PlayJuegos es una aplicación para Android desarrollada en el marco de la asignatura Desarrollo de Interfaces del ciclo de DAM. La aplicación permite a los usuarios elegir un videojuego, crear un perfil de jugador y configurar preferencias.
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 El proyecto se organiza en las siguientes carpetas y archivos clave:
 
 ````css
