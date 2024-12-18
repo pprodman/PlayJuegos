@@ -14,7 +14,7 @@
   - [Preferences](#4-preferences)
   - [About](#5-about)
   - [Configuración](#6-configuración)
-6. [Preguntas Frecuentes (FAQ)](#preguntas-frecuentes-faq)
+6. [Preguntas Frecuentes (FAQ)](#preguntas-frecuentes-(faq))
 7. [Notas del Estudiante](#notas-del-estudiante)
 
 ## Introducción
@@ -55,7 +55,7 @@ En esta sección puedes acceder al núcleo del juego.
 - Iniciar Juego: Comienza una nueva partida.
 - Puntuación: Visualiza el progreso y los resultados obtenidos.
 
-<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/game.png" alt="Game" width="250"/>
+<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/play.png" alt="Game" width="250"/>
 
 ### 3. New Player
 Permite crear un nuevo jugador.
@@ -92,5 +92,3 @@ En la opcion de Configuración de la barra superior, podremos acceder a la opcio
 
 ## Créditos
 Este proyecto fue desarrollado como parte del módulo Desarrollo de Interfaces en el Ciclo Formativo de Grado Superior en DAM, [IES Álvaro Falomir](https://www.iesalvarofalomir.es), Almazora (Castellón).
-
-![Menú Principal](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/intro.png)
