@@ -55,14 +55,14 @@ PlayGames/
 ### Clase: `About`
 `About` es una clase de datos utilizada para representar la información de los desarrolladores. Contiene tres atributos:
 
-### Atributos
+#### Atributos
 | Nombre | Tipo | Descripción |
 |---|---|---|
 |`imagen`|`Int`|Imagen que representa visualmente al desarrollador|
 |`nombre`|`String`|Nombre del desarrollador|
 |`numero`|`Int`|Número de juegos desarrollados por el desarrollador|
 
-### Declaración
+#### Declaración
 ````kotlin
 data class About(val imagen: Int, val nombre: String, val numero: Int)
 ````
