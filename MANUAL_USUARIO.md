@@ -3,11 +3,11 @@
 
 ## Indice
 
-1. Introducción
-2. Requisitos del Sistema
-3. Instalación
-4. Primeros Pasos
-5. [Navegación por la Aplicación](#navegacion-por-la-aplicacion)
+1. [Introducción](#introducción)
+2. [Requisitos del Sistema](#requisitos-del-sistema)
+3. [Instalación](#instalación)
+4. [Primeros Pasos](#primeros-pasos)
+5. [Navegación por la Aplicación](#navegación-por-la-aplicación)
   - Menu Principal 
   - [Game](#2-game)
   - [New Player](#3-new-player)
