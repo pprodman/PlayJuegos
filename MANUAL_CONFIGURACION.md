@@ -9,7 +9,7 @@ Este manual detalla los pasos básicos para configurar el proyecto **Play Games*
 Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 
 #### 1. **Android Studio**
-- Versión recomendada: **Android Studio Ladybug | 2024.2.1** o superior.
+- Versión recomendada: **Android Studio Ladybug | 2024.2.1**
 - Descarga desde [aquí](https://developer.android.com/studio?hl=es-419).
 #### 2. **SDK de Android**
 - Versión mínima del SDK: **26** (Android 8.0, Oreo).
