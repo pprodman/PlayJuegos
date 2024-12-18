@@ -14,8 +14,8 @@
   - [Preferences](#4-preferences)
   - [About](#5-about)
   - [Configuración](#6-configuración)
-6. [Preguntas Frecuentes (FAQ)](#preguntas-frecuentes-(faq))
-7. [Notas del Estudiante](#notas-del-estudiante)
+6. [Notas del Estudiante](#notas-del-estudiante)
+7. [Creditos](#creditos)
 
 ## Introducción
 
