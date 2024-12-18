@@ -166,37 +166,36 @@ class AboutViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 }
 ````
 #### Componentes
-#### Atributos de Vista:
-Los elementos de la vista se enlazan mediante `findViewById`:
-- nombre: Muestra el nombre asociado al objeto About.
-- numero: Representa el número o cantidad asociada.
-- imagen: Contiene una imagen representativa del objeto.
+##### 1. Atributos de Vista: Los elementos de la vista se enlazan mediante `findViewById`:
+- `nombre`: Muestra el nombre asociado al objeto `About`.
+- `numero`: Representa el número o cantidad asociada.
+- `imagen`: Contiene una imagen representativa del objeto.
 ````kotlin
 val nombre = view.findViewById<TextView>(R.id.tvAboutNombre)
 val numero = view.findViewById<TextView>(R.id.tvAboutNumero)
 val imagen = view.findViewById<ImageView>(R.id.ivAbout)
 ````
 
-Método render: Este método actualiza los datos en la vista para reflejar la información del objeto About.
+##### 2. Método `render`: Este método actualiza los datos en la vista para reflejar la información del objeto `About`.
 
-Asigna el nombre y el número a los TextView.
-Configura la imagen utilizando setImageResource.
-kotlin
-Copiar código
+Asigna el nombre y el número a los `TextView`.
+Configura la imagen utilizando `setImageResource`.
+````kotlin
 fun render(AboutStat: About) {
     nombre.text = AboutStat.nombre
     numero.text = AboutStat.numero.toString()
     imagen.setImageResource(AboutStat.imagen)
 }
-Listener de Clic: Se añade un OnClickListener para mostrar un mensaje (Toast) con el nombre del objeto cuando se selecciona un elemento de la lista.
+````
+##### 3. Listener de Clic: Se añade un `OnClickListener` para mostrar un mensaje (Toast) con el nombre del objeto cuando se selecciona un elemento de la lista.
 
-kotlin
-Copiar código
+````kotlin
 itemView.setOnClickListener {
     Toast.makeText(itemView.context, AboutStat.nombre, Toast.LENGTH_SHORT).show()
 }
-Uso en el Proyecto
-La clase AboutViewHolder se utiliza en conjunto con el adaptador AboutAdapter. Cada vez que se muestra un elemento en el RecyclerView, el método render se llama para actualizar la información en la vista.
+````
+#### Uso en el Proyecto
+La clase `AboutViewHolder` se utiliza en conjunto con el adaptador `AboutAdapter`. Cada vez que se muestra un elemento en el `RecyclerView`, el método `render` se llama para actualizar la información en la vista.
 
 
 
