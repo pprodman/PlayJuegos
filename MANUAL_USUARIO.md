@@ -59,15 +59,15 @@ En esta sección puedes acceder al núcleo del juego.
 
 ### 3. New Player
 Permite crear un nuevo jugador.
-- Rellena los datos requeridos (nombre, edad, etc.).
+- Rellena los datos requeridos (nombre, nickname, imagen, telefono, email).
 - Guarda el perfil para usarlo en futuras partidas.
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/newplayer.png" alt="New Player" width="250"/>
 
 ### 4. Preferences
 Configura las opciones de la aplicación según tus preferencias.
-- Sonido: Activa o desactiva la música y los efectos.
-- Dificultad: Ajusta el nivel del juego (Fácil, Medio, Difícil).
+- Selecciona  un juego y puntúalo.
+- Se puede puntuar mediante estrellas o barra de nivel, en un rango desde 1 hasta 5 puntos.
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/preferences.png" alt="Preferences" width="250"/>
 
