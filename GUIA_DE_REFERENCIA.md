@@ -198,7 +198,13 @@ itemView.setOnClickListener {
 La clase `AboutViewHolder` se utiliza en conjunto con el adaptador `AboutAdapter`. Cada vez que se muestra un elemento en el `RecyclerView`, el método `render` se llama para actualizar la información en la vista.
 
 
+### Clases `GeneroAdapter` y `GeneroViewHolder`
+Estas clases tienen un funcionamiento similar a las clases `AboutAdapter` y `AboutViewHolder`, pero están adaptadas para trabajar con objetos de la clase `Genero`. Su propósito es gestionar y visualizar un `RecyclerView` que muestra una lista de géneros.
 
+- `GeneroAdapter`: Maneja la creación, vinculación y conteo de elementos en el `RecyclerView`.
+- `GeneroViewHolder`: Vincula los datos de cada objeto `Genero` con los componentes visuales de la vista correspondiente.
+  
+Estas clases permiten la correcta representación de los géneros en la interfaz de usuario.
 
     
 ## Flujo de Navegación
