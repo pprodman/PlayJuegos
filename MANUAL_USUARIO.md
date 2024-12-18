@@ -14,8 +14,8 @@
   - [Preferences](#4-preferences)
   - [About](#5-about)
   - [Configuración](#6-configuración)
-6. Preguntas Frecuentes (FAQ)
-7. Notas del Estudiante
+6. [Preguntas Frecuentes (FAQ)](#preguntas-frecuentes-faq)
+7. [Notas del Estudiante](#notas-del-estudiante)
 
 ## Introducción
 
@@ -55,28 +55,35 @@ En esta sección puedes acceder al núcleo del juego.
 - Iniciar Juego: Comienza una nueva partida.
 - Puntuación: Visualiza el progreso y los resultados obtenidos.
 
+<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/game.png" alt="Game" width="250"/>
+
 ### 3. New Player
 Permite crear un nuevo jugador.
 - Rellena los datos requeridos (nombre, edad, etc.).
 - Guarda el perfil para usarlo en futuras partidas.
+
+<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/newplayer.png" alt="New Player" width="250"/>
 
 ### 4. Preferences
 Configura las opciones de la aplicación según tus preferencias.
 - Sonido: Activa o desactiva la música y los efectos.
 - Dificultad: Ajusta el nivel del juego (Fácil, Medio, Difícil).
 
+<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/preferences.png" alt="Preferences" width="250"/>
+
 ### 5. About
 Consulta información sobre la aplicación y los desarrolladores.
 - Detalles sobre el propósito de la app.
 - Información de la versión actual.
+
+<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/about.png" alt="About" width="250"/>
 
 ### 6. Configuración
 En la opcion de Configuración de la barra superior, podremos acceder a la opcion de búsqueda. En ella se puede seleccionar:
 - Plataformas de videojuegos.
 - Géneros de videojuegos.
 
-
-
+<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/settings.png" alt="Configuración" width="250"/>
 
 ## Notas del Estudiante
 - Autor: [@pprodman](https://www.github.com/pprodman).
