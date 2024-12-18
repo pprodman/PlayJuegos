@@ -5,7 +5,7 @@ El proyecto PlayJuegos es una aplicación para Android desarrollada en el marco 
 Estructura del Proyecto
 El proyecto se organiza en las siguientes carpetas y archivos clave:
 
-css
+````css
 Copiar código
 PlayJuegos/
 ├── app/
@@ -31,6 +31,7 @@ PlayJuegos/
 │   ├── build.gradle
 │   └── AndroidManifest.xml
 └── README.md
+````
 Clases Principales
 GameActivity.java
 Descripción: Actividad que permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles.
