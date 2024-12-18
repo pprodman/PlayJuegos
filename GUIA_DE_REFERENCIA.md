@@ -1,4 +1,4 @@
-# Guía de Referencia: Proyecto PlayGames
+# 🔍 Guía de Referencia: Proyecto PlayGames
 
 ## Índice
 1. [Descripción General](#descripción-general)
