@@ -1,4 +1,13 @@
 # Guía de Referencia: Proyecto PlayGames
+
+## Índice
+1. [Descripción General](#descripción-general)
+2. [Estructura del Proyecto](#estructura-del-proyecto)
+3. [Actividades](#actividades)
+4. [Modelos](#modelos)
+5. [Adapters](#adapters)
+6. [Flujo de Navegación](#flujo-de-navegación)
+
 ## Descripción General
 El proyecto **PlayGames** es una aplicación para Android desarrollada en el marco de la asignatura Desarrollo de Interfaces del ciclo de DAM. La aplicación permite a los usuarios elegir un videojuego, crear un perfil de jugador y configurar preferencias.
 
