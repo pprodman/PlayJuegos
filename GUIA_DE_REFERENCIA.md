@@ -43,12 +43,12 @@ PlayGames/
 
 | Nombre | Descripción | 
 |---|---|
-| [`MainActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-main-activity/index.md)| Pantalla principal de la aplicación, donde se muestra el acceso al resto de secciones |
-| [`GameActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-games-activity/index.md)| Permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles| 
-| [`NewPlayerActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-new-player-activity/index.md)| Permite al usuario crea un nuevo perfil de jugador| 
-| [`PreferencesActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-preferences-activity/index.md)| Permite configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz| 
-| [`AboutActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-about-activity/index.md)| Muestra información sobre los desarrolladores y el proyecto| 
-| [`GeneroActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-generos-activity/index.md)| Permite filtrar a los usuarios el videojuego en función de la plataforma y el género | 
+| [`MainActivity`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-main-activity/index.md)| Pantalla principal de la aplicación, donde se muestra el acceso al resto de secciones |
+| [`GameActivity`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-games-activity/index.md)| Permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles| 
+| [`NewPlayerActivity`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-new-player-activity/index.md)| Permite al usuario crea un nuevo perfil de jugador| 
+| [`PreferencesActivity`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-preferences-activity/index.md)| Permite configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz| 
+| [`AboutActivity`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-about-activity/index.md)| Muestra información sobre los desarrolladores y el proyecto| 
+| [`GeneroActivity`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-generos-activity/index.md)| Permite filtrar a los usuarios el videojuego en función de la plataforma y el género | 
 
 ## Modelos
 
