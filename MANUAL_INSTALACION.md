@@ -31,26 +31,39 @@ Antes de instalar la aplicación, asegúrate de cumplir con los siguientes requi
       - Una vez instalada, abre la aplicación desde el menú principal de tu dispositivo.
 
 ## Instalación desde Código Fuente
-1. Clonar el repositorio
-
-Descarga el código fuente desde el repositorio de GitHub:
+1. **Clonar el repositorio**
+- Descarga el código fuente desde el repositorio de GitHub:
 ```bash
-#Copiar código
 git clone https://github.com/tu-repositorio/play-games.git
 ```
-Abrir en Android Studio
+2. **Abrir en Android Studio**
+- Abre Android Studio y selecciona File > Open....
+- Navega hasta la carpeta del proyecto descargado y ábrela.
+  
+3. **onfigurar el entorno**
+- Asegúrate de que tienes las herramientas necesarias instaladas:
+- SDK de Android 8.0 (Oreo) o superior.
+- Gradle configurado correctamente (Android Studio lo hará automáticamente).
 
-Abre Android Studio y selecciona File > Open....
-Navega hasta la carpeta del proyecto descargado y ábrela.
-Configurar el entorno
+4. Compilar y ejecutar
+- Conecta tu dispositivo Android mediante USB o selecciona un emulador.
+- Haz clic en el botón Run (o presiona Shift + F10) para compilar y ejecutar la app.
 
-Asegúrate de que tienes las herramientas necesarias instaladas:
-SDK de Android 8.0 (Oreo) o superior.
-Gradle configurado correctamente (Android Studio lo hará automáticamente).
-Compilar y ejecutar
+5. Instalar en el dispositivo
+- Una vez compilada, la aplicación se instalará automáticamente en el dispositivo conectado.
 
-Conecta tu dispositivo Android mediante USB o selecciona un emulador.
-Haz clic en el botón Run (o presiona Shift + F10) para compilar y ejecutar la app.
-Instalar en el dispositivo
+## Resolución de Problemas
+1. Error de instalación del APK
 
-Una vez compilada, la aplicación se instalará automáticamente en el dispositivo conectado.
+Asegúrate de haber habilitado la opción Fuentes desconocidas en la configuración del dispositivo.
+Verifica que el archivo APK no esté corrupto descargándolo nuevamente.
+2. Problemas con Android Studio
+
+Actualiza Android Studio a la última versión disponible.
+Asegúrate de tener instalados los paquetes necesarios desde el SDK Manager.
+3. Error de conexión con el dispositivo
+
+Activa el modo Depuración USB en tu dispositivo:
+Ve a Configuración > Opciones de desarrollador > Depuración USB.
+Revisa el cable USB o intenta usar otro puerto.
+
