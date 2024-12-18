@@ -1,20 +1,15 @@
 
 # Play Games 🎮
-
 Proyecto de práctica para ***Desarrollo de Interfaces***, asignatura de 2º curso del Ciclo de Grado Superior Desarrollo de Aplicaciones Multiplataforma (DAM).
 
-
 ## Contenido
-
 En el proyecto Play Games, se aplica el contenido visto durante los temas 1 a 4 de la asignatura:
 - Colores.
 - Paneles (layouts), temas y estilos.
 - Componentes básicos.
 - Componentes avanzados.
 
-
 ## Secciones
-
 El proyecto Play Games se divide en las siguientes secciones:
 
 - **Games** (Seleccion de videojuego)
@@ -23,31 +18,35 @@ El proyecto Play Games se divide en las siguientes secciones:
 - **About** (Desarrolladores del videojuego)
 - **Géneros** (Opcion de configuración del tipo de juego: plataforma y género)
 
-  [**Manual de Usuario**](https://github.com/pprodman/PlayJuegos/blob/master/MANUAL_USUARIO.md)
-  
+ ## Manuales
+- [Manual de Usuario](./MANUAL_USUARIO.md)
+- [Manual de Instalación](./MANUAL_INSTALACION.md)
+- [Manual de Administración](./MANUAL_ADMINISTRACION.md)
+- [Manual de Configuración](./MANUAL_CONFIGURACION.md)
+- [Guía de Referencia](./GUIA_REFERENCIA.md)
 
-## Autor
-
-- [@pprodman](https://www.github.com/pprodman)
-
-
-## Documentación
-
+## Documentación del Proyecto
 - [Actividades](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/index.md)
 - [Modelos](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.model/index.md)
 - [Adapter-ViewHolder](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames.adapter/index.md)
 
 ## Instalación
+1. **Requisitos previos**:  
+   - Android Studio 2021.3 o superior.  
+   - SDK mínimo: Android 8.0 (API 26).  
+   - JDK 23 o superior.  
 
-#### Dependencias
-- El programa requiere la instalación previa de [Android Studio](https://developer.android.com/studio?hl=es-419).
+2. **Clonar el repositorio**:  
+   Ejecuta el siguiente comando en tu terminal:  
+   ```bash
+   git clone https://github.com/pprodman/PlayJuegos.git
+   ```
 
-#### Descarga
-Clona el proyecto: abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
+3. **Abrir el proyecto:**
+Abre Android Studio y selecciona la carpeta clonada para comenzar a trabajar.
 
-```bash
-  $ git clone hhttps://github.com/pprodman/PlayJuegos
-```
+## Autor
+- [@pprodman](https://www.github.com/pprodman)
 
 ## Feedback
 
