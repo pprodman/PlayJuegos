@@ -2,7 +2,7 @@
 Este manual detalla los pasos básicos para configurar el proyecto **Play Games** en Android Studio, incluyendo las versiones necesarias de Android, Java y Kotlin, así como las dependencias requeridas.
 ## Índice
 1. [Requisitos Previos](#requisitos-previos)
-2. [Pasos para Configurar el Proyecto](#pasos-para-cofigurar-el-proyecto)
+2. [Pasos para Configurar el Proyecto](#pasos-para-configurar-el-proyecto)
 3. [Dependencias requeridas](#dependencias-requeridas)
 
 ## Requisitos Previos
