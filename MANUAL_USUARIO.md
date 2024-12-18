@@ -8,11 +8,12 @@
 3. Instalación
 4. Primeros Pasos
 5. [Navegación por la Aplicación](#navegacion-por-la-aplicacion)
-- Menu Principal 
-- [Game](#2-game)
-- New Player
-- Preferences
-- About
+  - Menu Principal 
+  - [Game](#2-game)
+  - [New Player](#3-new-player)
+  - [Preferences](#4-preferences)
+  - [About](#5-about)
+  - [Configuración](#6-configuracion)
 6. Preguntas Frecuentes (FAQ)
 7. Notas del Estudiante
 
