@@ -25,6 +25,7 @@ El proyecto Play Games se divide en las siguientes secciones:
 - [Manual de Administración](./MANUAL_ADMINISTRACION.md) 🗂️: Describe cómo gestionar y mantener el proyecto, incluyendo buenas prácticas para la organización del código y la documentación.
 - [Manual de Configuración](./MANUAL_CONFIGURACION.md) ⚙️: Detalla las versiones requeridas de Android, SDK, Java, y dependencias necesarias para el correcto funcionamiento del proyecto.
 - [Guía de Referencia](./GUIA_DE_REFERENCIA.md)🔍: Contiene información técnica sobre las principales clases, métodos y estructuras utilizadas en el proyecto.
+- [Tutorial](./TUTORIAL.md)🧑‍🏫: Aprende a usar Play Games de manera sencilla con esta guía paso a paso.
 
 ## Instalación
 1. **Requisitos previos**:  
