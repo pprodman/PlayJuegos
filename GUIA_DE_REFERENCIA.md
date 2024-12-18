@@ -41,10 +41,14 @@ PlayGames/
 
 ## Actividades
 
-| Name |
-|---|
-| MainActivity.ks|
-| GameActivity.ks|
+| Nombre | Descripción | 
+|---|---|
+| MainActivity.ks| hola |
+| GameActivity.ks| Actividad que permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles| 
+| NewPlayerActivity.ks| Actividad donde el usuario crea un nuevo perfil de jugador| 
+| PreferencesActivity.ks| Actividad para configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz| 
+| AboutActivity.ks| Muestra información sobre los desarrolladores y el proyecto| 
+| GeneroActivity.ks| Actividad que permite filtrar a los usuarios el videojuego en función de la plataforma y el género | 
 
 #### `GameActivity.ks`
 - Descripción: Actividad que permite a los usuarios seleccionar un videojuego de una lista y visualizar sus detalles.
