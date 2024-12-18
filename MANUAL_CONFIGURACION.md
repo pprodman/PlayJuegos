@@ -5,18 +5,18 @@ Este manual detalla los pasos básicos para configurar el proyecto Play Games en
 Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 
 1. **Android Studio**
-   - Versión recomendada: **Arctic Fox (2020.3.1)** o superior.
-   - Descarga desde [aquí](https://developer.android.com/studio?hl=es-419).
+- Versión recomendada: **Arctic Fox (2020.3.1)** o superior.
+- Descarga desde [aquí](https://developer.android.com/studio?hl=es-419).
 2. **SDK de Android**
-   - Versión mínima del SDK: **21** (Android 5.0, Lollipop).
-   - Versión objetivo del SDK: **33** (Android 13).
-   - **Herramientas necesarias**
-     - Build Tools: 33.0.0 o superior.
-     - Gradle: 7.0.0 o superior.
+- Versión mínima del SDK: **21** (Android 5.0, Lollipop).
+- Versión objetivo del SDK: **33** (Android 13).
+- **Herramientas necesarias**
+   - Build Tools: 33.0.0 o superior.
+  - Gradle: 7.0.0 o superior.
 3. **Java**
-   - Versión recomendada: **JDK 17.**
+- Versión recomendada: **JDK 17.**
 4. **Kotlin**
-   - Versión utilizada: **1.8.0.**
+- Versión utilizada: **1.8.0.**
 
 ## Pasos para Configurar el Proyecto
 1. **Abrir el proyecto en Android Studio**
