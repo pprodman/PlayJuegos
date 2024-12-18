@@ -77,7 +77,10 @@ val juanPalaciosDev = About( imagen = R.drawable.ic_juanpalacios, nombre = "Juan
 La clase `AboutProvider` actúa como un proveedor de datos para la entidad `About`. Su objetivo principal es generar y proporcionar una lista de objetos `About`, que pueden ser utilizados por otras partes de la aplicación, como adaptadores o vistas, para mostrar información en la interfaz.
 
 #### Descripción
-La clase `AboutProvider` utiliza un objeto de compañero (`companion object`) en Kotlin para proporcionar una lista estática e inmutable de elementos de tipo `About`. Es una manera conveniente de almacenar datos que serán reutilizados en la aplicación. Dentro de este, se define `aboutList`, una lista inmutable creada con `listOf` que contiene instancias de la clase `About`, cada una inicializada con tres parámetros.
+La clase `AboutProvider` utiliza un objeto de compañero (`companion object`) en Kotlin para proporcionar una lista estática e inmutable de elementos de tipo `About`. Es una manera conveniente de almacenar datos que serán reutilizados en la aplicación. Dentro de este, se define `aboutList`, una lista inmutable creada con `listOf` que contiene instancias de la clase `About`, cada una inicializada con tres parámetros:
+- Un recurso de imagen (R.drawable).
+- Un nombre (String).
+- Un número (Int).
 
 ### Clase: `Genero`
 `Genero` es una clase de datos utilizada para representar la información del género de los videojuegos. Contiene un solo atributo:
@@ -101,10 +104,9 @@ val aventuras = Genero( nombre = "Aventuras" )
 La clase `GeneroProvider` actúa como un proveedor de datos para la entidad `Genero`. Su objetivo principal es generar y proporcionar una lista de objetos `Genero`, que pueden ser utilizados por otras partes de la aplicación, como adaptadores o vistas, para mostrar información en la interfaz.
 
 #### Descripción
-La clase `GenerotProvider` utiliza un objeto de compañero (`companion object`) en Kotlin para proporcionar una lista estática e inmutable de elementos de tipo `Genero`. Es una manera conveniente de almacenar datos que serán reutilizados en la aplicación. Dentro de este, se define `generotList`, una lista inmutable creada con `listOf` que contiene instancias de la clase `Genero`, cada una inicializada con un parámetro.
+La clase `GenerotProvider` utiliza un objeto de compañero (`companion object`) en Kotlin para proporcionar una lista estática e inmutable de elementos de tipo `Genero`. Es una manera conveniente de almacenar datos que serán reutilizados en la aplicación. Dentro de este, se define `generotList`, una lista inmutable creada con `listOf` que contiene instancias de la clase `Genero`, cada una inicializada con un parámetro:
+- Un nombre (String).
 
-
- 
 ## Adapters
     
 ## Flujo de Navegación
