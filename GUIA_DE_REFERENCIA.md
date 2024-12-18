@@ -52,7 +52,7 @@ PlayGames/
 
 ## Modelos
 
-### Clase: `About`
+### Clase `About`
 `About` es una clase de datos utilizada para representar la información de los desarrolladores. Contiene tres atributos:
 
 #### Atributos
@@ -73,7 +73,7 @@ La clase se utiliza para crear objetos que representen desarrolladores de la apl
 val juanPalaciosDev = About( imagen = R.drawable.ic_juanpalacios, nombre = "Juan Palacios", numero = 25 )
 ````
 
-### Clase: `AboutProvider`
+### Clase `AboutProvider`
 La clase `AboutProvider` actúa como un proveedor de datos para la entidad `About`. Su objetivo principal es generar y proporcionar una lista de objetos `About`, que pueden ser utilizados por otras partes de la aplicación, como adaptadores o vistas, para mostrar información en la interfaz.
 
 #### Descripción
@@ -100,7 +100,7 @@ La clase se utiliza para crear objetos que representen el tipo de género de vid
 ````kotlin
 val aventuras = Genero( nombre = "Aventuras" )
 ````
-### Clase: `GeneroProvider`
+### Clase `GeneroProvider`
 La clase `GeneroProvider` actúa como un proveedor de datos para la entidad `Genero`. Su objetivo principal es generar y proporcionar una lista de objetos `Genero`, que pueden ser utilizados por otras partes de la aplicación, como adaptadores o vistas, para mostrar información en la interfaz.
 
 #### Descripción
@@ -156,6 +156,46 @@ recyclerView.adapter = aboutAdapter
 recyclerView.layoutManager = LinearLayoutManager(this)
 ````
 
+### Clase `AboutViewHolder`
+La clase `AboutViewHolder` es una implementación personalizada de `RecyclerView.ViewHolder`. Sirve para enlazar y manejar los elementos de una vista individual dentro de un `RecyclerView`, vinculando los datos del modelo `About` con los componentes visuales definidos en el diseño XML.
+
+#### Declaración de la Clase
+````kotlin
+class AboutViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+    ...
+}
+````
+#### Componentes
+##### 1. Atributos de Vista: Los elementos de la vista se enlazan mediante `findViewById`:
+- nombre: Muestra el nombre asociado al objeto About.
+- numero: Representa el número o cantidad asociada.
+- imagen: Contiene una imagen representativa del objeto.
+````kotlin
+val nombre = view.findViewById<TextView>(R.id.tvAboutNombre)
+val numero = view.findViewById<TextView>(R.id.tvAboutNumero)
+val imagen = view.findViewById<ImageView>(R.id.ivAbout)
+````
+
+Método render: Este método actualiza los datos en la vista para reflejar la información del objeto About.
+
+Asigna el nombre y el número a los TextView.
+Configura la imagen utilizando setImageResource.
+kotlin
+Copiar código
+fun render(AboutStat: About) {
+    nombre.text = AboutStat.nombre
+    numero.text = AboutStat.numero.toString()
+    imagen.setImageResource(AboutStat.imagen)
+}
+Listener de Clic: Se añade un OnClickListener para mostrar un mensaje (Toast) con el nombre del objeto cuando se selecciona un elemento de la lista.
+
+kotlin
+Copiar código
+itemView.setOnClickListener {
+    Toast.makeText(itemView.context, AboutStat.nombre, Toast.LENGTH_SHORT).show()
+}
+Uso en el Proyecto
+La clase AboutViewHolder se utiliza en conjunto con el adaptador AboutAdapter. Cada vez que se muestra un elemento en el RecyclerView, el método render se llama para actualizar la información en la vista.
 
 
 
