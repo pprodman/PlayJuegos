@@ -8,7 +8,7 @@
 3. [Instalación](#instalación)
 4. [Primeros Pasos](#primeros-pasos)
 5. [Navegación por la Aplicación](#navegación-por-la-aplicación)
-  - Menu Principal 
+  - [Menú Principal](#1-menú-principal)
   - [Game](#2-game)
   - [New Player](#3-new-player)
   - [Preferences](#4-preferences)
