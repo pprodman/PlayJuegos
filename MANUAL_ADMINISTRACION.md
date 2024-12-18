@@ -1,5 +1,5 @@
 # Manual de Administración del Proyecto - Play Games
-Este manual está diseñado para ayudarte a mantener y gestionar el proyecto Play Games de manera sencilla y efectiva durante el curso de Desarrollo de Interfaces.
+Este manual está diseñado para ayudarte a mantener y gestionar el proyecto **Play Games** de manera sencilla y efectiva durante el curso de Desarrollo de Interfaces.
 
 ## Índice
 1. Gestión de Versiones
@@ -19,7 +19,7 @@ git commit -m "Mensaje" # Guarda los cambios
 git push origin main    # Sube los cambios a GitHub
 ````
 
-#### 2.Organización del código:
+#### 2. Organización del código:
 - Usa ramas para trabajar en nuevas funcionalidades o corregir errores:
 ````bash
 git checkout -b nueva-funcionalidad
@@ -28,19 +28,19 @@ git checkout -b nueva-funcionalidad
 
 ## Mantenimiento de Dependencias
 #### 1. Actualizar las dependencias:
-- Abre el archivo build.gradle y revisa las versiones de las librerías utilizadas.
+- Abre el archivo `build.gradle` y revisa las versiones de las librerías utilizadas.
 - Si encuentras versiones más recientes, actualiza el número de versión y sincroniza Gradle.
 #### 2. Lista de dependencias utilizadas en el proyecto:
 
-gradle
-Copiar código
+````gradle
 implementation 'androidx.appcompat:appcompat:1.6.1'
 implementation 'com.google.android.material:material:1.9.0'
 implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 implementation 'androidx.lifecycle:lifecycle-viewmodel:2.6.1'
-Añadir nuevas librerías:
+````
 
-Si necesitas una nueva librería, agrégala al archivo build.gradle en el apartado dependencies y sincroniza Gradle.
+#### 3. Añadir nuevas librerías:
+- Si necesitas una nueva librería, agrégala al archivo `build.gradle` en el apartado `dependencies` y sincroniza Gradle.
 Actualización de Android Studio y SDK
 Actualizar Android Studio:
 
