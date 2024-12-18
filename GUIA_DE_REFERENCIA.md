@@ -68,7 +68,7 @@ data class About(val imagen: Int, val nombre: String, val numero: Int)
 ````
 #### Uso
 La clase se utiliza para crear objetos que representen desarrolladores de la aplicación, facilitando su gestión y visualización.
-Ejemplo
+###### Ejemplo
 ````kotlin
 val juanPalaciosDev = About( imagen = R.drawable.ic_juanpalacios, nombre = "Juan Palacios", numero = 25)
 ````
