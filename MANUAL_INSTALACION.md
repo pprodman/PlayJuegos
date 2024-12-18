@@ -19,9 +19,9 @@ Antes de instalar la aplicación, asegúrate de cumplir con los siguientes requi
 - **Habilitar instalación desde fuentes desconocidas** (si usas un APK).
 
 ## Instalación desde APK
-1. **Descargar el APK**
+#### 1. Descargar el APK
       - Descarga el archivo `PlayGames.apk` desde el repositorio de GitHub o la ubicación proporcionada.
-3. **Permitir instalación de aplicaciones desconocidas**
+#### 2. Permitir instalación de aplicaciones desconocidas
       - En tu dispositivo Android, ve a Configuración > Seguridad.
       - Activa la opción Permitir instalación de aplicaciones desconocidas.
 4. **Instalar el APK**
