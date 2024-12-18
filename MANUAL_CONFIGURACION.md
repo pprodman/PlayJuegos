@@ -19,23 +19,23 @@ Asegúrate de cumplir con los siguientes requisitos antes de empezar:
   - Versión utilizada: 1.8.0.
 
 ## Pasos para Configurar el Proyecto
-Abrir el proyecto en Android Studio
+1. **Abrir el proyecto en Android Studio**
+  - Descarga o clona el repositorio del proyecto:
+  ````bash
+  git clone https://github.com/tu-usuario/play-games.git
+  ````
+  - Abre Android Studio y selecciona Open an Existing Project.
+  - Navega hasta la carpeta donde se encuentra el proyecto clonado.
 
-Descarga o clona el repositorio del proyecto:
-bash
-Copiar código
-git clone https://github.com/tu-usuario/play-games.git
-Abre Android Studio y selecciona Open an Existing Project.
-Navega hasta la carpeta donde se encuentra el proyecto clonado.
-Configurar el SDK y JDK
+2. **Configurar el SDK y JDK**
+  - Ve a **File > Project Structure > SDK Location** y verifica que las rutas del SDK y JDK sean correctas.
+  - Si es necesario, instala las herramientas desde el **SDK Manager** en Android Studio.
 
-Ve a File > Project Structure > SDK Location y verifica que las rutas del SDK y JDK sean correctas.
-Si es necesario, instala las herramientas desde el SDK Manager en Android Studio.
-Sincronizar Gradle
+3. **Sincronizar Gradle**
+- Android Studio detectará automáticamente el archivo `build.gradle`.
+- Pulsa en **Sync Now** para descargar las dependencias necesarias.
 
-Android Studio detectará automáticamente el archivo build.gradle.
-Pulsa en Sync Now para descargar las dependencias necesarias.
-Dependencias Requeridas
+## Dependencias Requeridas
 El proyecto utiliza las siguientes dependencias, que se encuentran definidas en el archivo build.gradle:
 
 Dependencias principales
