@@ -41,27 +41,32 @@ PlayJuegos/
   - startGame(): Llama a la lógica para iniciar un nuevo juego o muestra detalles del juego seleccionado.
 
 #### `NewPlayerActivity.java`
-Descripción: Actividad donde el usuario crea un nuevo perfil de jugador.
-Métodos Importantes:
-onCreate(Bundle savedInstanceState): Establece el formulario para ingresar el nombre del jugador.
-savePlayerName(String playerName): Guarda el nombre del jugador en las preferencias de la aplicación.
-PreferencesActivity.java
-Descripción: Actividad para configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz.
-Métodos Importantes:
-onCreate(Bundle savedInstanceState): Muestra las opciones de configuración, como el tema y las preferencias de sonido.
-savePreferences(): Guarda las configuraciones seleccionadas por el usuario.
-AboutActivity.java
-Descripción: Muestra información sobre los desarrolladores y el proyecto.
-Métodos Importantes:
-onCreate(Bundle savedInstanceState): Muestra los detalles del equipo de desarrollo y los objetivos del proyecto.
-Funciones Clave
-Utils.java
-Descripción: Clase utilitaria con métodos generales utilizados en todo el proyecto.
-Funciones Importantes:
-getRandomGame(): Devuelve un juego aleatorio de la lista de juegos disponibles.
-loadImage(String imageUrl): Carga una imagen desde una URL para mostrar en las actividades.
-Flujo de Navegación
-Pantalla de Inicio: El usuario abre la aplicación y se dirige a la actividad NewPlayerActivity para crear un perfil.
-Selección de Juego: Una vez creado el perfil, el usuario es dirigido a GameActivity, donde puede seleccionar un videojuego.
-Preferencias: Desde el menú de la aplicación, el usuario puede acceder a PreferencesActivity para ajustar la configuración.
-Información del Proyecto: El usuario también puede acceder a AboutActivity para conocer más sobre el proyecto y sus desarrolladores.
+- Descripción: Actividad donde el usuario crea un nuevo perfil de jugador.
+- Métodos Importantes:
+  - onCreate(Bundle savedInstanceState): Establece el formulario para ingresar el nombre del jugador.
+  - savePlayerName(String playerName): Guarda el nombre del jugador en las preferencias de la aplicación.
+
+#### `PreferencesActivity.java`
+- Descripción: Actividad para configurar las preferencias del jugador, como el tipo de juego o las configuraciones de la interfaz.
+- Métodos Importantes:
+  - onCreate(Bundle savedInstanceState): Muestra las opciones de configuración, como el tema y las preferencias de sonido.
+  - savePreferences(): Guarda las configuraciones seleccionadas por el usuario.
+
+#### `AboutActivity.java`
+- Descripción: Muestra información sobre los desarrolladores y el proyecto.
+- Métodos Importantes:
+  - onCreate(Bundle savedInstanceState): Muestra los detalles del equipo de desarrollo y los objetivos del proyecto.
+
+## Funciones Clave
+
+#### `Utils.java`
+- Descripción: Clase utilitaria con métodos generales utilizados en todo el proyecto.
+- Funciones Importantes:
+  - getRandomGame(): Devuelve un juego aleatorio de la lista de juegos disponibles.
+  - loadImage(String imageUrl): Carga una imagen desde una URL para mostrar en las actividades.
+    
+## Flujo de Navegación
+1. **Pantalla de Inicio**: El usuario abre la aplicación y se dirige a la actividad MainActivity donde puede seleccionar cualquier de las secciones de la aplicación.
+2. Selección de Juego: Una vez creado el perfil, el usuario es dirigido a GameActivity, donde puede seleccionar un videojuego.
+3. Preferencias: Desde el menú de la aplicación, el usuario puede acceder a PreferencesActivity para ajustar la configuración.
+4. Información del Proyecto: El usuario también puede acceder a AboutActivity para conocer más sobre el proyecto y sus desarrolladores.
