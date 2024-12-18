@@ -121,9 +121,9 @@ class AboutAdapter(private val aboutList: List<About>) : RecyclerView.Adapter<Ab
 ````
 
 #### Métodos Principales
-##### 1. onCreateViewHolder:
-- Se ejecuta cuando el adaptador necesita crear un nuevo ViewHolder.
-- Infla el diseño XML about_item y lo encapsula en un AboutViewHolder.
+##### 1. `onCreateViewHolder`:
+- Se ejecuta cuando el adaptador necesita crear un nuevo `ViewHolder`.
+- Infla el diseño XML `about_item` y lo encapsula en un `AboutViewHolder`.
 ````kotlin
 
 override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AboutViewHolder {
@@ -133,8 +133,8 @@ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AboutViewHold
 ````
 
 ##### 2. onBindViewHolder:
-- Se ejecuta para enlazar los datos de un objeto About con su respectivo ViewHolder.
-- Obtiene el objeto correspondiente según la posición y llama al método render del ViewHolder.
+- Se ejecuta para enlazar los datos de un objeto `About` con su respectivo `ViewHolder`.
+- Obtiene el objeto correspondiente según la posición y llama al método `render` del `ViewHolder`.
 ````kotlin
 override fun onBindViewHolder(holder: AboutViewHolder, position: Int) {
     val item = aboutList[position]
@@ -142,7 +142,7 @@ override fun onBindViewHolder(holder: AboutViewHolder, position: Int) {
 }
 ````
 ##### 3. getItemCount:
-- Devuelve el número total de elementos en la lista aboutList.
+- Devuelve el número total de elementos en la lista `aboutList`.
 ````kotlin
 override fun getItemCount(): Int = aboutList.size
 ````
