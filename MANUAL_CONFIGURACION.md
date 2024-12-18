@@ -4,7 +4,7 @@ Este manual detalla los pasos básicos para configurar el proyecto Play Games en
 ## Requisitos Previos
 Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 
-1.  **Android Studio**
+1. **Android Studio**
    - Versión recomendada: **Arctic Fox (2020.3.1)** o superior.
    - Descarga desde [aquí](https://developer.android.com/studio?hl=es-419).
 2. **SDK de Android**
