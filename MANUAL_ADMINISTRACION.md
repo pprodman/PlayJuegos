@@ -41,45 +41,43 @@ implementation 'androidx.lifecycle:lifecycle-viewmodel:2.6.1'
 
 #### 3. Añadir nuevas librerías:
 - Si necesitas una nueva librería, agrégala al archivo `build.gradle` en el apartado `dependencies` y sincroniza Gradle.
-Actualización de Android Studio y SDK
-Actualizar Android Studio:
 
-Abre Help > Check for Updates y sigue las instrucciones para instalar la última versión.
-Actualizar el SDK de Android:
-
-Ve al SDK Manager en Android Studio y selecciona las versiones necesarias:
-Versión mínima: 21 (Lollipop).
-Versión objetivo: 33 (Android 13).
-Actualizar Gradle:
-
-Ve al archivo gradle-wrapper.properties y cambia la versión de Gradle si es necesario:
-properties
-Copiar código
+## Actualización de Android Studio y SDK
+#### 1. Actualizar Android Studio:
+- Abre **Help > Check for Updates** y sigue las instrucciones para instalar la última versión.
+#### 2. Actualizar el SDK de Android:
+- Ve al **SDK Manager** en Android Studio y selecciona las versiones necesarias:
+   - Versión mínima: **21 (Lollipop)**.
+   - Versión objetivo: **33 (Android 13)**.
+#### 3. Actualizar Gradle:
+- Ve al archivo `gradle-wrapper.properties` y cambia la versión de Gradle si es necesario:
+````properties
 distributionUrl=https\://services.gradle.org/distributions/gradle-8.0.2-all.zip
-Supervisión de Pruebas
-Pruebas unitarias:
-
-Usa las pruebas incluidas en el proyecto para comprobar que las funciones principales trabajan correctamente:
-bash
+````
+## Supervisión de Pruebas
+#### 1. Pruebas unitarias:
+- Usa las pruebas incluidas en el proyecto para comprobar que las funciones principales trabajan correctamente:
+````bash
 Copiar código
 ./gradlew test
-Pruebas de interfaz:
+````
+#### 2. Pruebas de interfaz:
 
 Si tienes pruebas de interfaz (UI), ejecútalas para verificar que la app funciona en dispositivos:
-bash
+````bash
 Copiar código
 ./gradlew connectedAndroidTest
-Resolución de Problemas Comunes
-Error al sincronizar Gradle:
-
-Verifica tu conexión a Internet.
-Limpia y reconstruye el proyecto:
-bash
+````
+## Resolución de Problemas Comunes
+#### 1. Error al sincronizar Gradle:
+- Verifica tu conexión a Internet.
+- Limpia y reconstruye el proyecto:
+````bash
 Copiar código
 ./gradlew clean build
-Problemas con dependencias:
+````
+#### 2. Problemas con dependencias:
+- Asegúrate de que las versiones de las librerías sean compatibles. Si hay conflictos, revisa la documentación de cada librería.
 
-Asegúrate de que las versiones de las librerías sean compatibles. Si hay conflictos, revisa la documentación de cada librería.
-Errores de ejecución:
-
-Usa el Logcat en Android Studio para revisar los errores. Busca mensajes relevantes para identificar el problema.
+#### 3. Errores de ejecución:
+- Usa el Logcat en Android Studio para revisar los errores. Busca mensajes relevantes para identificar el problema.
