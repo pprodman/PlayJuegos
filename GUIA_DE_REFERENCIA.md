@@ -146,6 +146,20 @@ override fun onBindViewHolder(holder: AboutViewHolder, position: Int) {
 ````kotlin
 override fun getItemCount(): Int = aboutList.size
 ````
+### Uso en el Proyecto
+El adaptador `AboutAdapter` se utiliza para mostrar datos dinámicos en un `RecyclerView`. Un ejemplo típico de configuración sería:
+
+````kotlin
+val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+val aboutAdapter = AboutAdapter(AboutProvider.aboutList)
+recyclerView.adapter = aboutAdapter
+recyclerView.layoutManager = LinearLayoutManager(this)
+````
+
+
+
+
+
     
 ## Flujo de Navegación
 1. **Pantalla de Inicio**: El usuario abre la aplicación y se dirige a la actividad MainActivity donde puede seleccionar cualquier de las secciones de la aplicación.
