@@ -45,7 +45,7 @@ Este manual está diseñado para explicar las funcionalidades de la app y servir
 
 ### 1. Menú Principal
 Acceso principal de la aplicación. En ella se muestra las cuatro secciones principales y la configuración en la barra superior.
-<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/intro.png" alt="Menú Principal" width="400"/>
+<img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/intro.png" alt="Menú Principal" width="250"/>
 
 ### 2. Game
 En esta sección puedes acceder al núcleo del juego.
