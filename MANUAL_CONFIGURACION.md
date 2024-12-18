@@ -20,16 +20,16 @@ Asegúrate de cumplir con los siguientes requisitos antes de empezar:
 
 ## Pasos para Configurar el Proyecto
 #### 1. **Abrir el proyecto en Android Studio**
-  - Descarga o clona el repositorio del proyecto:
+- Descarga o clona el repositorio del proyecto:
   ````bash
   git clone https://github.com/tu-usuario/play-games.git
   ````
-  - Abre Android Studio y selecciona **Open an Existing Project**.
-  - Navega hasta la carpeta donde se encuentra el proyecto clonado.
+- Abre Android Studio y selecciona **Open an Existing Project**.
+- Navega hasta la carpeta donde se encuentra el proyecto clonado.
 
 #### 2. **Configurar el SDK y JDK**
-  - Ve a **File > Project Structure > SDK Location** y verifica que las rutas del SDK y JDK sean correctas.
-  - Si es necesario, instala las herramientas desde el **SDK Manager** en Android Studio.
+- Ve a **File > Project Structure > SDK Location** y verifica que las rutas del SDK y JDK sean correctas.
+- Si es necesario, instala las herramientas desde el **SDK Manager** en Android Studio.
 
 #### 3. **Sincronizar Gradle**
 - Android Studio detectará automáticamente el archivo `build.gradle`.
