@@ -108,6 +108,44 @@ La clase `GenerotProvider` utiliza un objeto de compañero (`companion object`) 
 - Un nombre (String).
 
 ## Adapters
+
+### Clase `AboutAdapter`
+La clase `AboutAdapter` es un adaptador personalizado que extiende `RecyclerView.Adapter` para manejar y mostrar una lista de objetos About en un componente `RecyclerView`. Este adaptador gestiona el ciclo de vida de las vistas y enlaza los datos de la lista con los elementos visuales.
+
+#### Declaración de la Clase
+````kotlin
+
+class AboutAdapter(private val aboutList: List<About>) : RecyclerView.Adapter<AboutViewHolder>() {
+    ...
+}
+````
+
+#### Métodos Principales
+- 1. onCreateViewHolder:
+     - Se ejecuta cuando el adaptador necesita crear un nuevo ViewHolder.
+     - Infla el diseño XML about_item y lo encapsula en un AboutViewHolder.
+````kotlin
+
+override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AboutViewHolder {
+    val layoutInflater = LayoutInflater.from(parent.context)
+    return AboutViewHolder(layoutInflater.inflate(R.layout.about_item, parent, false))
+}
+````
+
+- 2. onBindViewHolder:
+    - Se ejecuta para enlazar los datos de un objeto About con su respectivo ViewHolder.
+    - Obtiene el objeto correspondiente según la posición y llama al método render del ViewHolder.
+````kotlin
+override fun onBindViewHolder(holder: AboutViewHolder, position: Int) {
+    val item = aboutList[position]
+    holder.render(item)
+}
+````
+- 3. getItemCount:
+    - Devuelve el número total de elementos en la lista aboutList.
+````kotlin
+override fun getItemCount(): Int = aboutList.size
+````
     
 ## Flujo de Navegación
 1. **Pantalla de Inicio**: El usuario abre la aplicación y se dirige a la actividad MainActivity donde puede seleccionar cualquier de las secciones de la aplicación.
