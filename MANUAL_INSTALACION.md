@@ -26,7 +26,7 @@ Antes de instalar la aplicación, asegúrate de cumplir con los siguientes requi
 - Activa la opción *Permitir instalación de aplicaciones desconocidas*.
 #### 3. Instalar el APK
 - Abre el archivo APK descargado.
-- Sigue las instrucciones en pantalla y selecciona Instalar.
+- Sigue las instrucciones en pantalla y selecciona **Instalar**.
 #### 4. Abrir la aplicación
 - Una vez instalada, abre la aplicación desde el menú principal de tu dispositivo.
 
