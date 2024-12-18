@@ -6,12 +6,12 @@ El proyecto **PlayGames** es una aplicación para Android desarrollada en el mar
 El proyecto se organiza en las siguientes carpetas y archivos clave:
 
 ````css
-PlayJuegos/
+PlayGames/
 ├── app/
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/
-│   │   │   │   └── com.example.playjuegos/
+│   │   │   │   └── com.example.playgames/
 │   │   │   │       │   ├── MainActivity.java
 │   │   │   │       │   ├── GameActivity.java
 │   │   │   │       │   ├── NewPlayerActivity.java
