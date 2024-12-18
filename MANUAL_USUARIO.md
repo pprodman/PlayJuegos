@@ -82,7 +82,7 @@ Consulta información sobre la aplicación y los desarrolladores.
 En la opcion de Configuración de la barra superior, podremos acceder a la opcion de búsqueda. En ella se puede seleccionar:
 - Plataformas de videojuegos.
 - Géneros de videojuegos.
-- Una vez sele
+- Una vez pulsado el botón de verificación, se muestran las plataformas y generos seleccionados.
 
 <img src="https://github.com/pprodman/PlayJuegos/blob/master/app/docs/img/settings.png" alt="Configuración" width="250"/>
 
