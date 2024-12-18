@@ -1,4 +1,4 @@
-# Manual de Instalación - Play Games
+# 💾 Manual de Instalación - Play Games
 
 ## Índice
 1. [Introducción](#introducción)
