@@ -50,11 +50,20 @@ PlayGames/
 | [`AboutActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-about-activity/index.md)| Muestra información sobre los desarrolladores y el proyecto| 
 | [`GeneroActivity.ks`](https://github.com/pprodman/PlayJuegos/blob/master/app/docs/app/com.example.playgames/-generos-activity/index.md)| Permite filtrar a los usuarios el videojuego en función de la plataforma y el género | 
 
-
 ## Modelos
 
-#### `Utils.java`
-- Descripción: Clase utilitaria con métodos generales utilizados en todo el proyecto.
+### Clase: `About`
+`About` es una clase de datos utilizada para representar la información de los desarrolladores. Contiene tres atributos:
+
+### Atributos
+| Nombre | Tipo | Descripción |
+|---|---|---|
+|`imagen`|`Int`|Imagen que representa visualmente al desarrollador|
+|`nombre`|`String`|Nombre del desarrollador|
+|`numero`|`Int`|Número de juegos desarrollados por el desarrollador|
+
+
+Clase utilitaria con métodos generales utilizados en todo el proyecto.
 - Funciones Importantes:
   - getRandomGame(): Devuelve un juego aleatorio de la lista de juegos disponibles.
   - loadImage(String imageUrl): Carga una imagen desde una URL para mostrar en las actividades.
